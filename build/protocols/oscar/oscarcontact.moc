@@ -1,0 +1,151 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'oscarcontact.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/oscar/oscarcontact.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'oscarcontact.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_OscarContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      14,   13,   13,   13, 0x0a,
+      36,   30,   13,   13, 0x0a,
+      63,   47,   13,   13, 0x0a,
+     100,   13,   13,   13, 0x0a,
+     120,   13,   13,   13, 0x0a,
+     169,  141,   13,   13, 0x0a,
+     216,  197,   13,   13, 0x2a,
+     249,  239,   13,   13, 0x2a,
+     264,   13,   13,   13, 0x2a,
+     283,  275,   13,   13, 0x0a,
+     307,   13,   13,   13, 0x0a,
+     331,   13,   13,   13, 0x0a,
+     361,  354,   13,   13, 0x09,
+     396,  378,   13,   13, 0x09,
+     421,  378,   13,   13, 0x09,
+     460,  448,   13,   13, 0x09,
+     511,   13,   13,   13, 0x08,
+     543,   13,   13,   13, 0x08,
+     566,   13,   13,   13, 0x08,
+     587,  585,   13,   13, 0x08,
+     631,  616,   13,   13, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_OscarContact[] = {
+    "OscarContact\0\0deleteContact()\0flags\0"
+    "sync(uint)\0contact,details\0"
+    "userInfoUpdated(QString,UserDetails)\0"
+    "userOnline(QString)\0userOffline(QString)\0"
+    "sourceURL,fileName,fileSize\0"
+    "sendFile(KUrl,QString,uint)\0"
+    "sourceURL,fileName\0sendFile(KUrl,QString)\0"
+    "sourceURL\0sendFile(KUrl)\0sendFile()\0"
+    "message\0setAwayMessage(QString)\0"
+    "changeContactEncoding()\0requestAuthorization()\0"
+    "typing\0slotTyping(bool)\0contact,messageId\0"
+    "messageAck(QString,uint)\0"
+    "messageError(QString,uint)\0msg,session\0"
+    "slotSendMsg(Kopete::Message&,Kopete::ChatSession*)\0"
+    "changeEncodingDialogClosed(int)\0"
+    "chatSessionDestroyed()\0requestBuddyIcon()\0"
+    ",\0haveIcon(QString,QByteArray)\0"
+    "userId,message\0receivedStatusMessage(QString,QString)\0"
+};
+
+void OscarContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        OscarContact *_t = static_cast<OscarContact *>(_o);
+        switch (_id) {
+        case 0: _t->deleteContact(); break;
+        case 1: _t->sync((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 2: _t->userInfoUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const UserDetails(*)>(_a[2]))); break;
+        case 3: _t->userOnline((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 4: _t->userOffline((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< uint(*)>(_a[3]))); break;
+        case 6: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 7: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 8: _t->sendFile(); break;
+        case 9: _t->setAwayMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 10: _t->changeContactEncoding(); break;
+        case 11: _t->requestAuthorization(); break;
+        case 12: _t->slotTyping((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 13: _t->messageAck((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
+        case 14: _t->messageError((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
+        case 15: _t->slotSendMsg((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 16: _t->changeEncodingDialogClosed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 17: _t->chatSessionDestroyed(); break;
+        case 18: _t->requestBuddyIcon(); break;
+        case 19: _t->haveIcon((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< QByteArray(*)>(_a[2]))); break;
+        case 20: _t->receivedStatusMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData OscarContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject OscarContact::staticMetaObject = {
+    { &Kopete::Contact::staticMetaObject, qt_meta_stringdata_OscarContact,
+      qt_meta_data_OscarContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &OscarContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *OscarContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *OscarContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_OscarContact))
+        return static_cast<void*>(const_cast< OscarContact*>(this));
+    typedef Kopete::Contact QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int OscarContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Kopete::Contact QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 21)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 21;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

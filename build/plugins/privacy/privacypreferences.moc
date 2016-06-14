@@ -1,0 +1,121 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'privacypreferences.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../plugins/privacy/privacypreferences.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'privacypreferences.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PrivacyPreferences[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      11,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   19,   19,   19, 0x08,
+      40,   19,   19,   19, 0x08,
+      55,   19,   19,   19, 0x08,
+      90,   19,   19,   19, 0x08,
+     118,   19,   19,   19, 0x08,
+     149,   19,   19,   19, 0x08,
+     180,   19,   19,   19, 0x08,
+     211,   19,   19,   19, 0x08,
+     242,   19,   19,   19, 0x08,
+     278,   19,   19,   19, 0x08,
+     314,   19,   19,   19, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PrivacyPreferences[] = {
+    "PrivacyPreferences\0\0slotConfigChanged()\0"
+    "slotModified()\0slotChkDropAtLeastOneToggled(bool)\0"
+    "slotChkDropAllToggled(bool)\0"
+    "slotBtnAddToWhiteListClicked()\0"
+    "slotBtnAddToBlackListClicked()\0"
+    "slotBtnClearWhiteListClicked()\0"
+    "slotBtnClearBlackListClicked()\0"
+    "slotBtnRemoveFromWhiteListClicked()\0"
+    "slotBtnRemoveFromBlackListClicked()\0"
+    "slotSetupViews()\0"
+};
+
+void PrivacyPreferences::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PrivacyPreferences *_t = static_cast<PrivacyPreferences *>(_o);
+        switch (_id) {
+        case 0: _t->slotConfigChanged(); break;
+        case 1: _t->slotModified(); break;
+        case 2: _t->slotChkDropAtLeastOneToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 3: _t->slotChkDropAllToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 4: _t->slotBtnAddToWhiteListClicked(); break;
+        case 5: _t->slotBtnAddToBlackListClicked(); break;
+        case 6: _t->slotBtnClearWhiteListClicked(); break;
+        case 7: _t->slotBtnClearBlackListClicked(); break;
+        case 8: _t->slotBtnRemoveFromWhiteListClicked(); break;
+        case 9: _t->slotBtnRemoveFromBlackListClicked(); break;
+        case 10: _t->slotSetupViews(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PrivacyPreferences::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PrivacyPreferences::staticMetaObject = {
+    { &KCModule::staticMetaObject, qt_meta_stringdata_PrivacyPreferences,
+      qt_meta_data_PrivacyPreferences, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PrivacyPreferences::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PrivacyPreferences::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PrivacyPreferences::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PrivacyPreferences))
+        return static_cast<void*>(const_cast< PrivacyPreferences*>(this));
+    return KCModule::qt_metacast(_clname);
+}
+
+int PrivacyPreferences::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KCModule::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

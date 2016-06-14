@@ -1,0 +1,123 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'identitystatuswidget.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../kopete/identity/identitystatuswidget.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'identitystatuswidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_IdentityStatusWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      11,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      29,   22,   21,   21, 0x08,
+      48,   21,   21,   21, 0x08,
+      84,   79,   21,   21, 0x08,
+     121,   79,   21,   21, 0x08,
+     164,   21,   21,   21, 0x08,
+     191,  183,   21,   21, 0x08,
+     231,  183,   21,   21, 0x08,
+     287,  279,   21,   21, 0x08,
+     343,  334,   21,   21, 0x08,
+     403,  393,   21,   21, 0x08,
+     459,  334,   21,   21, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_IdentityStatusWidget[] = {
+    "IdentityStatusWidget\0\0amount\0"
+    "slotAnimate(qreal)\0showAccountContextMenu(QPoint)\0"
+    "item\0slotAccountClicked(QListWidgetItem*)\0"
+    "slotAccountDoubleClicked(QListWidgetItem*)\0"
+    "slotPhotoClicked()\0account\0"
+    "slotAccountRegistered(Kopete::Account*)\0"
+    "slotAccountUnregistered(const Kopete::Account*)\0"
+    "contact\0slotAccountStatusIconChanged(Kopete::Contact*)\0"
+    "identity\0slotIdentityUnregistered(const Kopete::Identity*)\0"
+    "container\0"
+    "slotIdentityPropertyChanged(Kopete::PropertyContainer*)\0"
+    "slotIdentityChanged(Kopete::Identity*)\0"
+};
+
+void IdentityStatusWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        IdentityStatusWidget *_t = static_cast<IdentityStatusWidget *>(_o);
+        switch (_id) {
+        case 0: _t->slotAnimate((*reinterpret_cast< qreal(*)>(_a[1]))); break;
+        case 1: _t->showAccountContextMenu((*reinterpret_cast< const QPoint(*)>(_a[1]))); break;
+        case 2: _t->slotAccountClicked((*reinterpret_cast< QListWidgetItem*(*)>(_a[1]))); break;
+        case 3: _t->slotAccountDoubleClicked((*reinterpret_cast< QListWidgetItem*(*)>(_a[1]))); break;
+        case 4: _t->slotPhotoClicked(); break;
+        case 5: _t->slotAccountRegistered((*reinterpret_cast< Kopete::Account*(*)>(_a[1]))); break;
+        case 6: _t->slotAccountUnregistered((*reinterpret_cast< const Kopete::Account*(*)>(_a[1]))); break;
+        case 7: _t->slotAccountStatusIconChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 8: _t->slotIdentityUnregistered((*reinterpret_cast< const Kopete::Identity*(*)>(_a[1]))); break;
+        case 9: _t->slotIdentityPropertyChanged((*reinterpret_cast< Kopete::PropertyContainer*(*)>(_a[1]))); break;
+        case 10: _t->slotIdentityChanged((*reinterpret_cast< Kopete::Identity*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData IdentityStatusWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject IdentityStatusWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_IdentityStatusWidget,
+      qt_meta_data_IdentityStatusWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &IdentityStatusWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *IdentityStatusWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *IdentityStatusWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_IdentityStatusWidget))
+        return static_cast<void*>(const_cast< IdentityStatusWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int IdentityStatusWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

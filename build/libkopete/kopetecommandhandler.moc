@@ -1,0 +1,135 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetecommandhandler.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetecommandhandler.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetecommandhandler.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__CommandHandler[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      15,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      24,   23,   23,   23, 0x08,
+      58,   23,   23,   23, 0x08,
+      94,   88,   23,   23, 0x08,
+     132,   23,   23,   23, 0x08,
+     163,  151,   23,   23, 0x08,
+     207,  202,   23,   23, 0x08,
+     249,  236,   23,   23, 0x08,
+     295,  236,   23,   23, 0x08,
+     342,  236,   23,   23, 0x08,
+     388,  236,   23,   23, 0x08,
+     435,  236,   23,   23, 0x08,
+     481,  236,   23,   23, 0x08,
+     527,  236,   23,   23, 0x08,
+     573,  236,   23,   23, 0x08,
+     622,  236,   23,   23, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__CommandHandler[] = {
+    "Kopete::CommandHandler\0\0"
+    "slotPluginLoaded(Kopete::Plugin*)\0"
+    "slotPluginDestroyed(QObject*)\0error\0"
+    "slotExecError(QProcess::ProcessError)\0"
+    "slotExecFinished()\0proc,buffer\0"
+    "slotExecSendMessage(KProcess*,QString)\0"
+    "view\0slotViewCreated(KopeteView*)\0"
+    "args,manager\0slotHelpCommand(QString,Kopete::ChatSession*)\0"
+    "slotClearCommand(QString,Kopete::ChatSession*)\0"
+    "slotPartCommand(QString,Kopete::ChatSession*)\0"
+    "slotCloseCommand(QString,Kopete::ChatSession*)\0"
+    "slotOpenLastUrl(QString,Kopete::ChatSession*)\0"
+    "slotExecCommand(QString,Kopete::ChatSession*)\0"
+    "slotAwayCommand(QString,Kopete::ChatSession*)\0"
+    "slotAwayAllCommand(QString,Kopete::ChatSession*)\0"
+    "slotSayCommand(QString,Kopete::ChatSession*)\0"
+};
+
+void Kopete::CommandHandler::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        CommandHandler *_t = static_cast<CommandHandler *>(_o);
+        switch (_id) {
+        case 0: _t->slotPluginLoaded((*reinterpret_cast< Kopete::Plugin*(*)>(_a[1]))); break;
+        case 1: _t->slotPluginDestroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 2: _t->slotExecError((*reinterpret_cast< QProcess::ProcessError(*)>(_a[1]))); break;
+        case 3: _t->slotExecFinished(); break;
+        case 4: _t->slotExecSendMessage((*reinterpret_cast< KProcess*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 5: _t->slotViewCreated((*reinterpret_cast< KopeteView*(*)>(_a[1]))); break;
+        case 6: _t->slotHelpCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 7: _t->slotClearCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 8: _t->slotPartCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 9: _t->slotCloseCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 10: _t->slotOpenLastUrl((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 11: _t->slotExecCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 12: _t->slotAwayCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 13: _t->slotAwayAllCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 14: _t->slotSayCommand((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::CommandHandler::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::CommandHandler::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Kopete__CommandHandler,
+      qt_meta_data_Kopete__CommandHandler, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::CommandHandler::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::CommandHandler::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::CommandHandler::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__CommandHandler))
+        return static_cast<void*>(const_cast< CommandHandler*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Kopete::CommandHandler::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 15)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 15;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

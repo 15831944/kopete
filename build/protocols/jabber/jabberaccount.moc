@@ -1,0 +1,211 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'jabberaccount.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/jabber/jabberaccount.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'jabberaccount.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_JabberAccount[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      40,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      24,   15,   14,   14, 0x0a,
+      53,   14,   14,   14, 0x0a,
+      73,   66,   14,   14, 0x0a,
+     133,  119,   14,   14, 0x0a,
+     215,  193,   14,   14, 0x0a,
+     309,  295,   14,   14, 0x2a,
+     376,  369,   14,   14, 0x2a,
+     428,  414,   14,   14, 0x0a,
+     475,  468,   14,   14, 0x0a,
+     518,  514,   14,   14, 0x0a,
+     543,   14,   14,   14, 0x08,
+     557,   14,   14,   14, 0x08,
+     604,  574,   14,   14, 0x08,
+     675,  665,   14,   14, 0x08,
+     716,   14,   14,   14, 0x08,
+     732,   14,   14,   14, 0x08,
+     753,   14,   14,   14, 0x08,
+     778,  770,   14,   14, 0x08,
+     810,   14,   14,   14, 0x08,
+     841,  837,   14,   14, 0x08,
+     873,   14,   14,   14, 0x08,
+     891,   14,   14,   14, 0x08,
+     905,   14,   14,   14, 0x08,
+     923,  514,   14,   14, 0x08,
+     954,  514,   14,   14, 0x08,
+     994,  983,   14,   14, 0x08,
+    1057, 1040,   14,   14, 0x08,
+    1108, 1099,   14,   14, 0x08,
+    1153, 1144,   14,   14, 0x08,
+    1193,   14,   14,   14, 0x08,
+    1230,   14,   14,   14, 0x08,
+    1269, 1267,   14,   14, 0x08,
+    1317, 1267,   14,   14, 0x08,
+    1367,   14,   14,   14, 0x08,
+    1402,   14,   14,   14, 0x08,
+    1418,   14,   14,   14, 0x08,
+    1436,   14,   14,   14, 0x08,
+    1461,   14,   14,   14, 0x08,
+    1489,   14,   14,   14, 0x08,
+    1519, 1506,   14,   14, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_JabberAccount[] = {
+    "JabberAccount\0\0password\0"
+    "connectWithPassword(QString)\0disconnect()\0"
+    "reason\0disconnect(Kopete::Account::DisconnectReason)\0"
+    "reason,status\0"
+    "disconnect(Kopete::Account::DisconnectReason,XMPP::Status&)\0"
+    "status,reason,options\0"
+    "setOnlineStatus(Kopete::OnlineStatus,Kopete::StatusMessage,OnlineStatu"
+    "sOptions)\0"
+    "status,reason\0"
+    "setOnlineStatus(Kopete::OnlineStatus,Kopete::StatusMessage)\0"
+    "status\0setOnlineStatus(Kopete::OnlineStatus)\0"
+    "statusMessage\0setStatusMessage(Kopete::StatusMessage)\0"
+    "tr,jid\0addTransport(JabberTransport*,QString)\0"
+    "jid\0removeTransport(QString)\0slotConnect()\0"
+    "slotDisconnect()\0identityResult,validityResult\0"
+    "slotHandleTLSWarning(QCA::TLS::IdentityResult,QCA::Validity)\0"
+    "errorCode\0slotClientError(JabberClient::ErrorCode)\0"
+    "slotConnected()\0slotCSDisconnected()\0"
+    "slotCSError(int)\0success\0"
+    "slotRosterRequestFinished(bool)\0"
+    "slotIncomingFileTransfer()\0msg\0"
+    "slotClientDebugMessage(QString)\0"
+    "slotXMPPConsole()\0slotSetMood()\0"
+    "slotJoinNewChat()\0slotGroupChatJoined(XMPP::Jid)\0"
+    "slotGroupChatLeft(XMPP::Jid)\0jid,status\0"
+    "slotGroupChatPresence(XMPP::Jid,XMPP::Status)\0"
+    "jid,error,reason\0"
+    "slotGroupChatError(XMPP::Jid,int,QString)\0"
+    "jid,type\0slotSubscription(XMPP::Jid,QString)\0"
+    "actionId\0slotAddedInfoEventActionActivated(uint)\0"
+    "slotContactUpdated(XMPP::RosterItem)\0"
+    "slotContactDeleted(XMPP::RosterItem)\0"
+    ",\0slotResourceAvailable(XMPP::Jid,XMPP::Resource)\0"
+    "slotResourceUnavailable(XMPP::Jid,XMPP::Resource)\0"
+    "slotReceivedMessage(XMPP::Message)\0"
+    "slotEditVCard()\0slotGetServices()\0"
+    "slotUnregisterFinished()\0"
+    "slotUpdateOurCapabilities()\0"
+    "loginLibjingle()\0address,port\0"
+    "loginLibjingleResolver(QHostAddress,quint16)\0"
+};
+
+void JabberAccount::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        JabberAccount *_t = static_cast<JabberAccount *>(_o);
+        switch (_id) {
+        case 0: _t->connectWithPassword((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->disconnect(); break;
+        case 2: _t->disconnect((*reinterpret_cast< Kopete::Account::DisconnectReason(*)>(_a[1]))); break;
+        case 3: _t->disconnect((*reinterpret_cast< Kopete::Account::DisconnectReason(*)>(_a[1])),(*reinterpret_cast< XMPP::Status(*)>(_a[2]))); break;
+        case 4: _t->setOnlineStatus((*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[1])),(*reinterpret_cast< const Kopete::StatusMessage(*)>(_a[2])),(*reinterpret_cast< const OnlineStatusOptions(*)>(_a[3]))); break;
+        case 5: _t->setOnlineStatus((*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[1])),(*reinterpret_cast< const Kopete::StatusMessage(*)>(_a[2]))); break;
+        case 6: _t->setOnlineStatus((*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[1]))); break;
+        case 7: _t->setStatusMessage((*reinterpret_cast< const Kopete::StatusMessage(*)>(_a[1]))); break;
+        case 8: _t->addTransport((*reinterpret_cast< JabberTransport*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 9: _t->removeTransport((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 10: _t->slotConnect(); break;
+        case 11: _t->slotDisconnect(); break;
+        case 12: _t->slotHandleTLSWarning((*reinterpret_cast< QCA::TLS::IdentityResult(*)>(_a[1])),(*reinterpret_cast< QCA::Validity(*)>(_a[2]))); break;
+        case 13: _t->slotClientError((*reinterpret_cast< JabberClient::ErrorCode(*)>(_a[1]))); break;
+        case 14: _t->slotConnected(); break;
+        case 15: _t->slotCSDisconnected(); break;
+        case 16: _t->slotCSError((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 17: _t->slotRosterRequestFinished((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 18: _t->slotIncomingFileTransfer(); break;
+        case 19: _t->slotClientDebugMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 20: _t->slotXMPPConsole(); break;
+        case 21: _t->slotSetMood(); break;
+        case 22: _t->slotJoinNewChat(); break;
+        case 23: _t->slotGroupChatJoined((*reinterpret_cast< const XMPP::Jid(*)>(_a[1]))); break;
+        case 24: _t->slotGroupChatLeft((*reinterpret_cast< const XMPP::Jid(*)>(_a[1]))); break;
+        case 25: _t->slotGroupChatPresence((*reinterpret_cast< const XMPP::Jid(*)>(_a[1])),(*reinterpret_cast< const XMPP::Status(*)>(_a[2]))); break;
+        case 26: _t->slotGroupChatError((*reinterpret_cast< const XMPP::Jid(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 27: _t->slotSubscription((*reinterpret_cast< const XMPP::Jid(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 28: _t->slotAddedInfoEventActionActivated((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 29: _t->slotContactUpdated((*reinterpret_cast< const XMPP::RosterItem(*)>(_a[1]))); break;
+        case 30: _t->slotContactDeleted((*reinterpret_cast< const XMPP::RosterItem(*)>(_a[1]))); break;
+        case 31: _t->slotResourceAvailable((*reinterpret_cast< const XMPP::Jid(*)>(_a[1])),(*reinterpret_cast< const XMPP::Resource(*)>(_a[2]))); break;
+        case 32: _t->slotResourceUnavailable((*reinterpret_cast< const XMPP::Jid(*)>(_a[1])),(*reinterpret_cast< const XMPP::Resource(*)>(_a[2]))); break;
+        case 33: _t->slotReceivedMessage((*reinterpret_cast< const XMPP::Message(*)>(_a[1]))); break;
+        case 34: _t->slotEditVCard(); break;
+        case 35: _t->slotGetServices(); break;
+        case 36: _t->slotUnregisterFinished(); break;
+        case 37: _t->slotUpdateOurCapabilities(); break;
+        case 38: _t->loginLibjingle(); break;
+        case 39: _t->loginLibjingleResolver((*reinterpret_cast< const QHostAddress(*)>(_a[1])),(*reinterpret_cast< quint16(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData JabberAccount::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject JabberAccount::staticMetaObject = {
+    { &Kopete::PasswordedAccount::staticMetaObject, qt_meta_stringdata_JabberAccount,
+      qt_meta_data_JabberAccount, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &JabberAccount::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *JabberAccount::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *JabberAccount::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_JabberAccount))
+        return static_cast<void*>(const_cast< JabberAccount*>(this));
+    typedef Kopete::PasswordedAccount QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int JabberAccount::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Kopete::PasswordedAccount QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 40)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 40;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

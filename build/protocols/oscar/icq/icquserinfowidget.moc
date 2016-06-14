@@ -1,0 +1,161 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'icquserinfowidget.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../protocols/oscar/icq/ui/icquserinfowidget.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'icquserinfowidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ICQUserInfoWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      25,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      19,   18,   18,   18, 0x0a,
+      53,   18,   18,   18, 0x0a,
+      83,   18,   18,   18, 0x0a,
+     111,   18,   18,   18, 0x0a,
+     139,   18,   18,   18, 0x0a,
+     169,   18,   18,   18, 0x0a,
+     208,  203,   18,   18, 0x0a,
+     246,  238,   18,   18, 0x08,
+     272,   18,   18,   18, 0x08,
+     288,   18,   18,   18, 0x08,
+     310,  304,   18,   18, 0x08,
+     339,  304,   18,   18, 0x08,
+     368,  304,   18,   18, 0x08,
+     397,  304,   18,   18, 0x08,
+     426,  304,   18,   18, 0x08,
+     455,  304,   18,   18, 0x08,
+     484,  304,   18,   18, 0x08,
+     515,  304,   18,   18, 0x08,
+     546,  304,   18,   18, 0x08,
+     577,  304,   18,   18, 0x08,
+     608,   18,   18,   18, 0x08,
+     623,   18,   18,   18, 0x08,
+     641,   18,   18,   18, 0x08,
+     655,   18,   18,   18, 0x08,
+     680,  671,   18,   18, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ICQUserInfoWidget[] = {
+    "ICQUserInfoWidget\0\0fillBasicInfo(ICQGeneralUserInfo)\0"
+    "fillWorkInfo(ICQWorkUserInfo)\0"
+    "fillEmailInfo(ICQEmailInfo)\0"
+    "fillNotesInfo(ICQNotesInfo)\0"
+    "fillMoreInfo(ICQMoreUserInfo)\0"
+    "fillInterestInfo(ICQInterestInfo)\0"
+    "info\0fillOrgAffInfo(ICQOrgAffInfo)\0"
+    "contact\0receivedLongInfo(QString)\0"
+    "slotUpdateDay()\0slotUpdateAge()\0index\0"
+    "slotOrg1CategoryChanged(int)\0"
+    "slotOrg2CategoryChanged(int)\0"
+    "slotOrg3CategoryChanged(int)\0"
+    "slotAff1CategoryChanged(int)\0"
+    "slotAff2CategoryChanged(int)\0"
+    "slotAff3CategoryChanged(int)\0"
+    "slotInterestTopic1Changed(int)\0"
+    "slotInterestTopic2Changed(int)\0"
+    "slotInterestTopic3Changed(int)\0"
+    "slotInterestTopic4Changed(int)\0"
+    "slotAddEmail()\0slotRemoveEmail()\0"
+    "slotUpEmail()\0slotDownEmail()\0selected\0"
+    "slotEmailSelectionChanged(QItemSelection)\0"
+};
+
+void ICQUserInfoWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ICQUserInfoWidget *_t = static_cast<ICQUserInfoWidget *>(_o);
+        switch (_id) {
+        case 0: _t->fillBasicInfo((*reinterpret_cast< const ICQGeneralUserInfo(*)>(_a[1]))); break;
+        case 1: _t->fillWorkInfo((*reinterpret_cast< const ICQWorkUserInfo(*)>(_a[1]))); break;
+        case 2: _t->fillEmailInfo((*reinterpret_cast< const ICQEmailInfo(*)>(_a[1]))); break;
+        case 3: _t->fillNotesInfo((*reinterpret_cast< const ICQNotesInfo(*)>(_a[1]))); break;
+        case 4: _t->fillMoreInfo((*reinterpret_cast< const ICQMoreUserInfo(*)>(_a[1]))); break;
+        case 5: _t->fillInterestInfo((*reinterpret_cast< const ICQInterestInfo(*)>(_a[1]))); break;
+        case 6: _t->fillOrgAffInfo((*reinterpret_cast< const ICQOrgAffInfo(*)>(_a[1]))); break;
+        case 7: _t->receivedLongInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 8: _t->slotUpdateDay(); break;
+        case 9: _t->slotUpdateAge(); break;
+        case 10: _t->slotOrg1CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 11: _t->slotOrg2CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 12: _t->slotOrg3CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 13: _t->slotAff1CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 14: _t->slotAff2CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 15: _t->slotAff3CategoryChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 16: _t->slotInterestTopic1Changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 17: _t->slotInterestTopic2Changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 18: _t->slotInterestTopic3Changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 19: _t->slotInterestTopic4Changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 20: _t->slotAddEmail(); break;
+        case 21: _t->slotRemoveEmail(); break;
+        case 22: _t->slotUpEmail(); break;
+        case 23: _t->slotDownEmail(); break;
+        case 24: _t->slotEmailSelectionChanged((*reinterpret_cast< const QItemSelection(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ICQUserInfoWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ICQUserInfoWidget::staticMetaObject = {
+    { &KPageDialog::staticMetaObject, qt_meta_stringdata_ICQUserInfoWidget,
+      qt_meta_data_ICQUserInfoWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ICQUserInfoWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ICQUserInfoWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ICQUserInfoWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ICQUserInfoWidget))
+        return static_cast<void*>(const_cast< ICQUserInfoWidget*>(this));
+    return KPageDialog::qt_metacast(_clname);
+}
+
+int ICQUserInfoWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KPageDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 25)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 25;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

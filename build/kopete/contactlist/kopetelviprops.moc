@@ -1,0 +1,201 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetelviprops.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../kopete/contactlist/kopetelviprops.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetelviprops.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_KopeteGVIProps[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      16,   15,   15,   15, 0x08,
+      35,   32,   15,   15, 0x08,
+      67,   15,   15,   15, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KopeteGVIProps[] = {
+    "KopeteGVIProps\0\0slotOkClicked()\0on\0"
+    "slotUseCustomIconsToggled(bool)\0"
+    "slotIconChanged()\0"
+};
+
+void KopeteGVIProps::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KopeteGVIProps *_t = static_cast<KopeteGVIProps *>(_o);
+        switch (_id) {
+        case 0: _t->slotOkClicked(); break;
+        case 1: _t->slotUseCustomIconsToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->slotIconChanged(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData KopeteGVIProps::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KopeteGVIProps::staticMetaObject = {
+    { &KDialog::staticMetaObject, qt_meta_stringdata_KopeteGVIProps,
+      qt_meta_data_KopeteGVIProps, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KopeteGVIProps::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KopeteGVIProps::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KopeteGVIProps::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KopeteGVIProps))
+        return static_cast<void*>(const_cast< KopeteGVIProps*>(this));
+    return KDialog::qt_metacast(_clname);
+}
+
+int KopeteGVIProps::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+    return _id;
+}
+static const uint qt_meta_data_KopeteMetaLVIProps[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   19,   19,   19, 0x08,
+      39,   36,   19,   19, 0x08,
+      71,   19,   19,   19, 0x08,
+      95,   19,   19,   19, 0x08,
+     133,   19,   19,   19, 0x08,
+     153,   19,   19,   19, 0x08,
+     173,   19,   19,   19, 0x08,
+     205,  195,   19,   19, 0x08,
+     241,   19,   19,   19, 0x08,
+     263,   19,   19,   19, 0x08,
+     286,   19,   19,   19, 0x08,
+     304,   19,   19,   19, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KopeteMetaLVIProps[] = {
+    "KopeteMetaLVIProps\0\0slotOkClicked()\0"
+    "on\0slotUseCustomIconsToggled(bool)\0"
+    "slotClearPhotoClicked()\0"
+    "slotAddresseeChanged(KABC::Addressee)\0"
+    "slotExportClicked()\0slotImportClicked()\0"
+    "slotFromKABCClicked()\0requester\0"
+    "slotOpenSoundDialog(KUrlRequester*)\0"
+    "slotLoadNameSources()\0slotLoadPhotoSources()\0"
+    "slotSelectPhoto()\0slotEnableAndDisableWidgets()\0"
+};
+
+void KopeteMetaLVIProps::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KopeteMetaLVIProps *_t = static_cast<KopeteMetaLVIProps *>(_o);
+        switch (_id) {
+        case 0: _t->slotOkClicked(); break;
+        case 1: _t->slotUseCustomIconsToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->slotClearPhotoClicked(); break;
+        case 3: _t->slotAddresseeChanged((*reinterpret_cast< const KABC::Addressee(*)>(_a[1]))); break;
+        case 4: _t->slotExportClicked(); break;
+        case 5: _t->slotImportClicked(); break;
+        case 6: _t->slotFromKABCClicked(); break;
+        case 7: _t->slotOpenSoundDialog((*reinterpret_cast< KUrlRequester*(*)>(_a[1]))); break;
+        case 8: _t->slotLoadNameSources(); break;
+        case 9: _t->slotLoadPhotoSources(); break;
+        case 10: _t->slotSelectPhoto(); break;
+        case 11: _t->slotEnableAndDisableWidgets(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData KopeteMetaLVIProps::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KopeteMetaLVIProps::staticMetaObject = {
+    { &KDialog::staticMetaObject, qt_meta_stringdata_KopeteMetaLVIProps,
+      qt_meta_data_KopeteMetaLVIProps, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KopeteMetaLVIProps::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KopeteMetaLVIProps::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KopeteMetaLVIProps::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KopeteMetaLVIProps))
+        return static_cast<void*>(const_cast< KopeteMetaLVIProps*>(this));
+    return KDialog::qt_metacast(_clname);
+}
+
+int KopeteMetaLVIProps::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 12)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 12;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,116 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'icqsearchdialog.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../protocols/oscar/icq/ui/icqsearchdialog.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'icqsearchdialog.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ICQSearchDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      17,   16,   16,   16, 0x08,
+      31,   16,   16,   16, 0x08,
+      44,   16,   16,   16, 0x08,
+      59,   16,   16,   16, 0x08,
+      70,   16,   16,   16, 0x08,
+      86,   16,   16,   16, 0x08,
+     103,   94,   16,   16, 0x08,
+     141,  136,   16,   16, 0x08,
+     176,  168,   16,   16, 0x08,
+     203,  196,   16,   16, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ICQSearchDialog[] = {
+    "ICQSearchDialog\0\0startSearch()\0"
+    "stopSearch()\0clearResults()\0userInfo()\0"
+    "closeUserInfo()\0clear()\0selected\0"
+    "selectionChanged(QItemSelection)\0info\0"
+    "newResult(ICQSearchResult)\0numLeft\0"
+    "searchFinished(int)\0button\0"
+    "slotButtonClicked(int)\0"
+};
+
+void ICQSearchDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ICQSearchDialog *_t = static_cast<ICQSearchDialog *>(_o);
+        switch (_id) {
+        case 0: _t->startSearch(); break;
+        case 1: _t->stopSearch(); break;
+        case 2: _t->clearResults(); break;
+        case 3: _t->userInfo(); break;
+        case 4: _t->closeUserInfo(); break;
+        case 5: _t->clear(); break;
+        case 6: _t->selectionChanged((*reinterpret_cast< const QItemSelection(*)>(_a[1]))); break;
+        case 7: _t->newResult((*reinterpret_cast< const ICQSearchResult(*)>(_a[1]))); break;
+        case 8: _t->searchFinished((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 9: _t->slotButtonClicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ICQSearchDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ICQSearchDialog::staticMetaObject = {
+    { &KDialog::staticMetaObject, qt_meta_stringdata_ICQSearchDialog,
+      qt_meta_data_ICQSearchDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ICQSearchDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ICQSearchDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ICQSearchDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ICQSearchDialog))
+        return static_cast<void*>(const_cast< ICQSearchDialog*>(this));
+    return KDialog::qt_metacast(_clname);
+}
+
+int ICQSearchDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

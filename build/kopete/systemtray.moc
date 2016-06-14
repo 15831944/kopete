@@ -1,0 +1,122 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'systemtray.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../kopete/systemtray.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'systemtray.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_KopeteSystemTray[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      21,   18,   17,   17, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      45,   17,   17,   17, 0x08,
+      71,   67,   17,   17, 0x08,
+      88,   17,   17,   17, 0x28,
+      99,   17,   17,   17, 0x08,
+     111,   17,   17,   17, 0x08,
+     147,   17,   17,   17, 0x08,
+     184,   17,   17,   17, 0x08,
+     204,   17,   17,   17, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KopeteSystemTray[] = {
+    "KopeteSystemTray\0\0am\0aboutToShowMenu(KMenu*)\0"
+    "slotAboutToShowMenu()\0pos\0activate(QPoint)\0"
+    "activate()\0slotBlink()\0"
+    "slotNewEvent(Kopete::MessageEvent*)\0"
+    "slotEventDone(Kopete::MessageEvent*)\0"
+    "slotConfigChanged()\0slotReevaluateAccountStates()\0"
+};
+
+void KopeteSystemTray::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KopeteSystemTray *_t = static_cast<KopeteSystemTray *>(_o);
+        switch (_id) {
+        case 0: _t->aboutToShowMenu((*reinterpret_cast< KMenu*(*)>(_a[1]))); break;
+        case 1: _t->slotAboutToShowMenu(); break;
+        case 2: _t->activate((*reinterpret_cast< const QPoint(*)>(_a[1]))); break;
+        case 3: _t->activate(); break;
+        case 4: _t->slotBlink(); break;
+        case 5: _t->slotNewEvent((*reinterpret_cast< Kopete::MessageEvent*(*)>(_a[1]))); break;
+        case 6: _t->slotEventDone((*reinterpret_cast< Kopete::MessageEvent*(*)>(_a[1]))); break;
+        case 7: _t->slotConfigChanged(); break;
+        case 8: _t->slotReevaluateAccountStates(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData KopeteSystemTray::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KopeteSystemTray::staticMetaObject = {
+    { &KStatusNotifierItem::staticMetaObject, qt_meta_stringdata_KopeteSystemTray,
+      qt_meta_data_KopeteSystemTray, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KopeteSystemTray::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KopeteSystemTray::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KopeteSystemTray::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KopeteSystemTray))
+        return static_cast<void*>(const_cast< KopeteSystemTray*>(this));
+    return KStatusNotifierItem::qt_metacast(_clname);
+}
+
+int KopeteSystemTray::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KStatusNotifierItem::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void KopeteSystemTray::aboutToShowMenu(KMenu * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+QT_END_MOC_NAMESPACE

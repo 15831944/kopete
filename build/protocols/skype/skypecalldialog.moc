@@ -1,0 +1,175 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'skypecalldialog.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/skype/skypecalldialog.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'skypecalldialog.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SkypeCallDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      19,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       5,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      24,   17,   16,   16, 0x05,
+      47,   17,   16,   16, 0x05,
+      68,   17,   16,   16, 0x05,
+      92,   16,   16,   16, 0x05,
+     109,   17,   16,   16, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     131,   16,   16,   16, 0x08,
+     146,   16,   16,   16, 0x08,
+     163,   16,   16,   16, 0x08,
+     174,   16,   16,   16, 0x08,
+     186,   16,   16,   16, 0x09,
+     199,   16,   16,   16, 0x09,
+     210,   16,   16,   16, 0x09,
+     219,   16,   16,   16, 0x09,
+     232,  230,   16,   16, 0x09,
+     264,  250,   16,   16, 0x0a,
+     294,  250,   16,   16, 0x0a,
+     340,  323,   16,   16, 0x0a,
+     366,   17,   16,   16, 0x0a,
+     401,  395,   16,   16, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SkypeCallDialog[] = {
+    "SkypeCallDialog\0\0callId\0acceptTheCall(QString)\0"
+    "hangTheCall(QString)\0toggleHoldCall(QString)\0"
+    "updateSkypeOut()\0callFinished(QString)\0"
+    "deathTimeout()\0updateCallInfo()\0"
+    "callBack()\0hideSkype()\0acceptCall()\0"
+    "holdCall()\0hangUp()\0chatUser()\0b\0"
+    "videoAction(bool)\0callId,status\0"
+    "updateStatus(QString,QString)\0"
+    "updateError(QString,QString)\0"
+    "balance,currency\0skypeOutInfo(int,QString)\0"
+    "startReceivingVideo(QString)\0calId\0"
+    "stopReceivingVideo(QString)\0"
+};
+
+void SkypeCallDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        SkypeCallDialog *_t = static_cast<SkypeCallDialog *>(_o);
+        switch (_id) {
+        case 0: _t->acceptTheCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->hangTheCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->toggleHoldCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->updateSkypeOut(); break;
+        case 4: _t->callFinished((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->deathTimeout(); break;
+        case 6: _t->updateCallInfo(); break;
+        case 7: _t->callBack(); break;
+        case 8: _t->hideSkype(); break;
+        case 9: _t->acceptCall(); break;
+        case 10: _t->holdCall(); break;
+        case 11: _t->hangUp(); break;
+        case 12: _t->chatUser(); break;
+        case 13: _t->videoAction((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 14: _t->updateStatus((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 15: _t->updateError((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 16: _t->skypeOutInfo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 17: _t->startReceivingVideo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 18: _t->stopReceivingVideo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData SkypeCallDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject SkypeCallDialog::staticMetaObject = {
+    { &KDialog::staticMetaObject, qt_meta_stringdata_SkypeCallDialog,
+      qt_meta_data_SkypeCallDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SkypeCallDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SkypeCallDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SkypeCallDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SkypeCallDialog))
+        return static_cast<void*>(const_cast< SkypeCallDialog*>(this));
+    return KDialog::qt_metacast(_clname);
+}
+
+int SkypeCallDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 19)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 19;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SkypeCallDialog::acceptTheCall(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void SkypeCallDialog::hangTheCall(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void SkypeCallDialog::toggleHoldCall(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void SkypeCallDialog::updateSkypeOut()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void SkypeCallDialog::callFinished(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+QT_END_MOC_NAMESPACE

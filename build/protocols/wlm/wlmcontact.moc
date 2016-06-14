@@ -1,0 +1,149 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'wlmcontact.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/wlm/wlmcontact.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'wlmcontact.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_WlmContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      20,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   12,   11,   11, 0x0a,
+      50,   12,   11,   11, 0x0a,
+      83,   11,   75,   11, 0x0a,
+     102,   95,   11,   11, 0x0a,
+     121,   11,   11,   11, 0x0a,
+     136,   11,   11,   11, 0x0a,
+     180,  152,   11,   11, 0x0a,
+     227,  208,   11,   11, 0x2a,
+     260,  250,   11,   11, 0x2a,
+     275,   11,   11,   11, 0x2a,
+     292,  286,   11,   11, 0x0a,
+     311,   11,   11,   11, 0x0a,
+     329,   11,   11,   11, 0x0a,
+     362,  356,   11,   11, 0x0a,
+     378,   11,  373,   11, 0x0a,
+     413,  391,   11,   11, 0x0a,
+     436,  286,   11,   11, 0x0a,
+     464,   11,  373,   11, 0x0a,
+     484,   11,   11,   11, 0x09,
+     506,   11,   11,   11, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_WlmContact[] = {
+    "WlmContact\0\0message\0sendMessage(Kopete::Message&)\0"
+    "receivedMessage(QString)\0QString\0"
+    "getMsnObj()\0msnobj\0setMsnObj(QString)\0"
+    "slotUserInfo()\0deleteContact()\0"
+    "sourceURL,fileName,fileSize\0"
+    "sendFile(KUrl,QString,uint)\0"
+    "sourceURL,fileName\0sendFile(KUrl,QString)\0"
+    "sourceURL\0sendFile(KUrl)\0sendFile()\0"
+    "block\0blockContact(bool)\0slotShowProfile()\0"
+    "slotUpdateDisplayPicture()\0flags\0"
+    "sync(uint)\0bool\0isDisabled()\0"
+    "disabled,updateServer\0setDisabled(bool,bool)\0"
+    "slotDontShowEmoticons(bool)\0"
+    "dontShowEmoticons()\0showContactSettings()\0"
+    "slotChatSessionDestroyed()\0"
+};
+
+void WlmContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        WlmContact *_t = static_cast<WlmContact *>(_o);
+        switch (_id) {
+        case 0: _t->sendMessage((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 1: _t->receivedMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: { QString _r = _t->getMsnObj();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 3: _t->setMsnObj((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 4: _t->slotUserInfo(); break;
+        case 5: _t->deleteContact(); break;
+        case 6: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< uint(*)>(_a[3]))); break;
+        case 7: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 8: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 9: _t->sendFile(); break;
+        case 10: _t->blockContact((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 11: _t->slotShowProfile(); break;
+        case 12: _t->slotUpdateDisplayPicture(); break;
+        case 13: _t->sync((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 14: { bool _r = _t->isDisabled();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 15: _t->setDisabled((*reinterpret_cast< bool(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 16: _t->slotDontShowEmoticons((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 17: { bool _r = _t->dontShowEmoticons();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 18: _t->showContactSettings(); break;
+        case 19: _t->slotChatSessionDestroyed(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData WlmContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject WlmContact::staticMetaObject = {
+    { &Kopete::Contact::staticMetaObject, qt_meta_stringdata_WlmContact,
+      qt_meta_data_WlmContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &WlmContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *WlmContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *WlmContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_WlmContact))
+        return static_cast<void*>(const_cast< WlmContact*>(this));
+    typedef Kopete::Contact QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int WlmContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Kopete::Contact QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 20)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 20;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

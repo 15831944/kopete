@@ -1,0 +1,154 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'jabbercontactpool.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/jabber/jabbercontactpool.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'jabbercontactpool.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_JabberContactPool[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      27,   19,   18,   18, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_JabberContactPool[] = {
+    "JabberContactPool\0\0contact\0"
+    "slotContactDestroyed(Kopete::Contact*)\0"
+};
+
+void JabberContactPool::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        JabberContactPool *_t = static_cast<JabberContactPool *>(_o);
+        switch (_id) {
+        case 0: _t->slotContactDestroyed((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData JabberContactPool::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject JabberContactPool::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_JabberContactPool,
+      qt_meta_data_JabberContactPool, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &JabberContactPool::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *JabberContactPool::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *JabberContactPool::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_JabberContactPool))
+        return static_cast<void*>(const_cast< JabberContactPool*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int JabberContactPool::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_JabberContactPoolItem[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_JabberContactPoolItem[] = {
+    "JabberContactPoolItem\0"
+};
+
+void JabberContactPoolItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData JabberContactPoolItem::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject JabberContactPoolItem::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_JabberContactPoolItem,
+      qt_meta_data_JabberContactPoolItem, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &JabberContactPoolItem::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *JabberContactPoolItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *JabberContactPoolItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_JabberContactPoolItem))
+        return static_cast<void*>(const_cast< JabberContactPoolItem*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int JabberContactPoolItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

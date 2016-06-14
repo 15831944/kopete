@@ -1,0 +1,107 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'otrpreferences.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../plugins/otr/otrpreferences.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'otrpreferences.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_OTRPreferences[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       6,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      16,   15,   15,   15, 0x08,
+      48,   38,   15,   15, 0x08,
+      73,   15,   15,   15, 0x08,
+      93,   15,   15,   15, 0x08,
+     136,  112,   15,   15, 0x08,
+     167,   15,   15,   15, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_OTRPreferences[] = {
+    "OTRPreferences\0\0generateFingerprint()\0"
+    "accountnr\0showPrivFingerprint(int)\0"
+    "verifyFingerprint()\0fillFingerprints()\0"
+    "row,col,prevRow,prevCol\0"
+    "updateButtons(int,int,int,int)\0"
+    "forgetFingerprint()\0"
+};
+
+void OTRPreferences::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        OTRPreferences *_t = static_cast<OTRPreferences *>(_o);
+        switch (_id) {
+        case 0: _t->generateFingerprint(); break;
+        case 1: _t->showPrivFingerprint((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->verifyFingerprint(); break;
+        case 3: _t->fillFingerprints(); break;
+        case 4: _t->updateButtons((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4]))); break;
+        case 5: _t->forgetFingerprint(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData OTRPreferences::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject OTRPreferences::staticMetaObject = {
+    { &KCModule::staticMetaObject, qt_meta_stringdata_OTRPreferences,
+      qt_meta_data_OTRPreferences, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &OTRPreferences::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *OTRPreferences::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *OTRPreferences::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_OTRPreferences))
+        return static_cast<void*>(const_cast< OTRPreferences*>(this));
+    return KCModule::qt_metacast(_clname);
+}
+
+int OTRPreferences::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KCModule::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

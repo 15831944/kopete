@@ -1,0 +1,167 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetepluginmanager.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetepluginmanager.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetepluginmanager.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__PluginManager[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      13,   14, // methods
+       0,    0, // properties
+       1,   79, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      30,   23,   22,   22, 0x05,
+      71,   60,   22,   22, 0x05,
+     104,   95,   22,   22, 0x05,
+     138,   22,   22,   22, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     179,  165,  157,   22, 0x0a,
+     223,  214,  157,   22, 0x2a,
+     248,   60,  243,   22, 0x0a,
+     270,   22,   22,   22, 0x0a,
+     287,   23,   22,   22, 0x08,
+     317,   22,   22,   22, 0x08,
+     339,   22,   22,   22, 0x08,
+     358,   22,   22,   22, 0x08,
+     385,   22,   22,   22, 0x08,
+
+ // enums: name, flags, count, data
+     406, 0x0,    2,   83,
+
+ // enum data: key, value
+     421, uint(Kopete::PluginManager::LoadSync),
+     430, uint(Kopete::PluginManager::LoadAsync),
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__PluginManager[] = {
+    "Kopete::PluginManager\0\0plugin\0"
+    "pluginLoaded(Kopete::Plugin*)\0pluginName\0"
+    "pluginUnloaded(QString)\0protocol\0"
+    "protocolLoaded(Kopete::Protocol*)\0"
+    "allPluginsLoaded()\0Plugin*\0pluginId,mode\0"
+    "loadPlugin(QString,PluginLoadMode)\0"
+    "pluginId\0loadPlugin(QString)\0bool\0"
+    "unloadPlugin(QString)\0loadAllPlugins()\0"
+    "slotPluginDestroyed(QObject*)\0"
+    "slotShutdownTimeout()\0slotShutdownDone()\0"
+    "slotPluginReadyForUnload()\0"
+    "slotLoadNextPlugin()\0PluginLoadMode\0"
+    "LoadSync\0LoadAsync\0"
+};
+
+void Kopete::PluginManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PluginManager *_t = static_cast<PluginManager *>(_o);
+        switch (_id) {
+        case 0: _t->pluginLoaded((*reinterpret_cast< Kopete::Plugin*(*)>(_a[1]))); break;
+        case 1: _t->pluginUnloaded((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->protocolLoaded((*reinterpret_cast< Kopete::Protocol*(*)>(_a[1]))); break;
+        case 3: _t->allPluginsLoaded(); break;
+        case 4: { Plugin* _r = _t->loadPlugin((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< PluginLoadMode(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< Plugin**>(_a[0]) = _r; }  break;
+        case 5: { Plugin* _r = _t->loadPlugin((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< Plugin**>(_a[0]) = _r; }  break;
+        case 6: { bool _r = _t->unloadPlugin((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 7: _t->loadAllPlugins(); break;
+        case 8: _t->slotPluginDestroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 9: _t->slotShutdownTimeout(); break;
+        case 10: _t->slotShutdownDone(); break;
+        case 11: _t->slotPluginReadyForUnload(); break;
+        case 12: _t->slotLoadNextPlugin(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::PluginManager::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::PluginManager::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Kopete__PluginManager,
+      qt_meta_data_Kopete__PluginManager, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::PluginManager::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::PluginManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::PluginManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__PluginManager))
+        return static_cast<void*>(const_cast< PluginManager*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Kopete::PluginManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::PluginManager::pluginLoaded(Kopete::Plugin * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Kopete::PluginManager::pluginUnloaded(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Kopete::PluginManager::protocolLoaded(Kopete::Protocol * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Kopete::PluginManager::allPluginsLoaded()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+QT_END_MOC_NAMESPACE

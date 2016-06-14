@@ -1,0 +1,218 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'libjingle.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/jabber/libjingle.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'libjingle.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Libjingle[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      24,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      10,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      11,   10,   10,   10, 0x05,
+      27,   23,   10,   10, 0x05,
+      63,   49,   10,   10, 0x05,
+     104,   91,   10,   10, 0x05,
+     133,   91,   10,   10, 0x05,
+     163,   10,   10,   10, 0x05,
+     177,   10,   10,   10, 0x05,
+     192,   10,   10,   10, 0x05,
+     207,   10,   10,   10, 0x05,
+     222,   10,   10,   10, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     237,   10,   10,   10, 0x0a,
+     245,   23,   10,   10, 0x0a,
+     261,   10,   10,   10, 0x2a,
+     275,  270,   10,   10, 0x0a,
+     293,   10,   10,   10, 0x0a,
+     306,   10,   10,   10, 0x0a,
+     319,   10,   10,   10, 0x0a,
+     332,   10,   10,   10, 0x0a,
+     347,  345,   10,   10, 0x0a,
+     362,   10,   10,   10, 0x08,
+     374,  369,   10,   10, 0x08,
+     398,  392,   10,   10, 0x08,
+     440,  428,   10,   10, 0x08,
+     475,   10,   10,   10, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Libjingle[] = {
+    "Libjingle\0\0connected()\0res\0"
+    "disconnected(QString)\0user,resource\0"
+    "userOnline(QString,QString)\0user,resourc\0"
+    "userOffline(QString,QString)\0"
+    "incomingCall(QString,QString)\0"
+    "callingCall()\0acceptedCall()\0"
+    "rejectedCall()\0progressCall()\0"
+    "hangedupCall()\0login()\0logout(QString)\0"
+    "logout()\0user\0makeCall(QString)\0"
+    "acceptCall()\0rejectCall()\0hangupCall()\0"
+    "cancelCall()\0b\0muteCall(bool)\0read()\0"
+    "line\0write(QByteArray)\0error\0"
+    "error(QProcess::ProcessError)\0,exitStatus\0"
+    "finished(int,QProcess::ExitStatus)\0"
+    "restart()\0"
+};
+
+void Libjingle::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Libjingle *_t = static_cast<Libjingle *>(_o);
+        switch (_id) {
+        case 0: _t->connected(); break;
+        case 1: _t->disconnected((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->userOnline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 3: _t->userOffline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 4: _t->incomingCall((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 5: _t->callingCall(); break;
+        case 6: _t->acceptedCall(); break;
+        case 7: _t->rejectedCall(); break;
+        case 8: _t->progressCall(); break;
+        case 9: _t->hangedupCall(); break;
+        case 10: _t->login(); break;
+        case 11: _t->logout((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 12: _t->logout(); break;
+        case 13: _t->makeCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 14: _t->acceptCall(); break;
+        case 15: _t->rejectCall(); break;
+        case 16: _t->hangupCall(); break;
+        case 17: _t->cancelCall(); break;
+        case 18: _t->muteCall((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 19: _t->read(); break;
+        case 20: _t->write((*reinterpret_cast< const QByteArray(*)>(_a[1]))); break;
+        case 21: _t->error((*reinterpret_cast< QProcess::ProcessError(*)>(_a[1]))); break;
+        case 22: _t->finished((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< QProcess::ExitStatus(*)>(_a[2]))); break;
+        case 23: _t->restart(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Libjingle::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Libjingle::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Libjingle,
+      qt_meta_data_Libjingle, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Libjingle::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Libjingle::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Libjingle::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Libjingle))
+        return static_cast<void*>(const_cast< Libjingle*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Libjingle::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 24)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 24;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Libjingle::connected()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Libjingle::disconnected(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Libjingle::userOnline(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Libjingle::userOffline(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void Libjingle::incomingCall(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void Libjingle::callingCall()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void Libjingle::acceptedCall()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, 0);
+}
+
+// SIGNAL 7
+void Libjingle::rejectedCall()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, 0);
+}
+
+// SIGNAL 8
+void Libjingle::progressCall()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, 0);
+}
+
+// SIGNAL 9
+void Libjingle::hangedupCall()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, 0);
+}
+QT_END_MOC_NAMESPACE

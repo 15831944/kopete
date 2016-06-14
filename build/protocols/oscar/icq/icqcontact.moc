@@ -1,0 +1,229 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'icqcontact.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../protocols/oscar/icq/icqcontact.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'icqcontact.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ICQContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      31,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       7,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      12,   11,   11,   11, 0x05,
+      46,   11,   11,   11, 0x05,
+      76,   11,   11,   11, 0x05,
+     104,   11,   11,   11, 0x05,
+     132,   11,   11,   11, 0x05,
+     162,   11,   11,   11, 0x05,
+     196,   11,   11,   11, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     226,   11,   11,   11, 0x0a,
+     257,  241,   11,   11, 0x0a,
+     301,  294,   11,   11, 0x0a,
+     328,  321,   11,   11, 0x0a,
+     349,   11,   11,   11, 0x0a,
+     377,  360,   11,   11, 0x08,
+     420,   11,   11,   11, 0x08,
+     438,   11,   11,   11, 0x08,
+     476,  453,   11,   11, 0x08,
+     515,   11,   11,   11, 0x08,
+     537,   11,   11,   11, 0x08,
+     559,   11,   11,   11, 0x08,
+     586,  578,   11,   11, 0x08,
+     613,  578,   11,   11, 0x08,
+     639,   11,   11,   11, 0x08,
+     662,  578,   11,   11, 0x08,
+     696,  687,   11,   11, 0x08,
+     725,   11,   11,   11, 0x28,
+     751,  687,   11,   11, 0x08,
+     784,   11,   11,   11, 0x28,
+     814,   11,   11,   11, 0x08,
+     833,   11,   11,   11, 0x08,
+     846,   11,   11,   11, 0x08,
+     862,   11,   11,   11, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ICQContact[] = {
+    "ICQContact\0\0haveBasicInfo(ICQGeneralUserInfo)\0"
+    "haveWorkInfo(ICQWorkUserInfo)\0"
+    "haveEmailInfo(ICQEmailInfo)\0"
+    "haveNotesInfo(ICQNotesInfo)\0"
+    "haveMoreInfo(ICQMoreUserInfo)\0"
+    "haveInterestInfo(ICQInterestInfo)\0"
+    "haveOrgAffInfo(ICQOrgAffInfo)\0"
+    "slotUserInfo()\0contact,details\0"
+    "userInfoUpdated(QString,UserDetails)\0"
+    "userId\0userOnline(QString)\0userID\0"
+    "userOffline(QString)\0loggedIn()\0"
+    "details,presence\0"
+    "refreshStatus(UserDetails,Oscar::Presence)\0"
+    "slotRequestAuth()\0slotSendAuth()\0"
+    "contact,reason,granted\0"
+    "slotGotAuthReply(QString,QString,bool)\0"
+    "storeUserInfoDialog()\0closeUserInfoDialog()\0"
+    "requestShortInfo()\0contact\0"
+    "receivedShortInfo(QString)\0"
+    "receivedLongInfo(QString)\0"
+    "requestMediumTlvInfo()\0receivedTlvInfo(QString)\0"
+    "minDelay\0requestShortInfoDelayed(int)\0"
+    "requestShortInfoDelayed()\0"
+    "requestMediumTlvInfoDelayed(int)\0"
+    "requestMediumTlvInfoDelayed()\0"
+    "infoDelayTimeout()\0slotIgnore()\0"
+    "slotVisibleTo()\0slotInvisibleTo()\0"
+};
+
+void ICQContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ICQContact *_t = static_cast<ICQContact *>(_o);
+        switch (_id) {
+        case 0: _t->haveBasicInfo((*reinterpret_cast< const ICQGeneralUserInfo(*)>(_a[1]))); break;
+        case 1: _t->haveWorkInfo((*reinterpret_cast< const ICQWorkUserInfo(*)>(_a[1]))); break;
+        case 2: _t->haveEmailInfo((*reinterpret_cast< const ICQEmailInfo(*)>(_a[1]))); break;
+        case 3: _t->haveNotesInfo((*reinterpret_cast< const ICQNotesInfo(*)>(_a[1]))); break;
+        case 4: _t->haveMoreInfo((*reinterpret_cast< const ICQMoreUserInfo(*)>(_a[1]))); break;
+        case 5: _t->haveInterestInfo((*reinterpret_cast< const ICQInterestInfo(*)>(_a[1]))); break;
+        case 6: _t->haveOrgAffInfo((*reinterpret_cast< const ICQOrgAffInfo(*)>(_a[1]))); break;
+        case 7: _t->slotUserInfo(); break;
+        case 8: _t->userInfoUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const UserDetails(*)>(_a[2]))); break;
+        case 9: _t->userOnline((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 10: _t->userOffline((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 11: _t->loggedIn(); break;
+        case 12: _t->refreshStatus((*reinterpret_cast< const UserDetails(*)>(_a[1])),(*reinterpret_cast< Oscar::Presence(*)>(_a[2]))); break;
+        case 13: _t->slotRequestAuth(); break;
+        case 14: _t->slotSendAuth(); break;
+        case 15: _t->slotGotAuthReply((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
+        case 16: _t->storeUserInfoDialog(); break;
+        case 17: _t->closeUserInfoDialog(); break;
+        case 18: _t->requestShortInfo(); break;
+        case 19: _t->receivedShortInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 20: _t->receivedLongInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 21: _t->requestMediumTlvInfo(); break;
+        case 22: _t->receivedTlvInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 23: _t->requestShortInfoDelayed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 24: _t->requestShortInfoDelayed(); break;
+        case 25: _t->requestMediumTlvInfoDelayed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 26: _t->requestMediumTlvInfoDelayed(); break;
+        case 27: _t->infoDelayTimeout(); break;
+        case 28: _t->slotIgnore(); break;
+        case 29: _t->slotVisibleTo(); break;
+        case 30: _t->slotInvisibleTo(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ICQContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ICQContact::staticMetaObject = {
+    { &ICQContactBase::staticMetaObject, qt_meta_stringdata_ICQContact,
+      qt_meta_data_ICQContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ICQContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ICQContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ICQContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ICQContact))
+        return static_cast<void*>(const_cast< ICQContact*>(this));
+    return ICQContactBase::qt_metacast(_clname);
+}
+
+int ICQContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = ICQContactBase::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 31)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 31;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void ICQContact::haveBasicInfo(const ICQGeneralUserInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void ICQContact::haveWorkInfo(const ICQWorkUserInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void ICQContact::haveEmailInfo(const ICQEmailInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void ICQContact::haveNotesInfo(const ICQNotesInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void ICQContact::haveMoreInfo(const ICQMoreUserInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void ICQContact::haveInterestInfo(const ICQInterestInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 6
+void ICQContact::haveOrgAffInfo(const ICQOrgAffInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+QT_END_MOC_NAMESPACE

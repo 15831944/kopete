@@ -1,0 +1,165 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'statisticsadaptor.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "statisticsadaptor.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'statisticsadaptor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_StatisticsAdaptor[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       2,   14, // classinfo
+      10,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+      44,   18,
+    1879,   60,
+
+ // slots: signature, parameters, type, tag, flags
+    1921, 1908, 1900, 1899, 0x0a,
+    1952, 1949, 1899, 1899, 0x0a,
+    1982, 1908, 1900, 1899, 0x0a,
+    2018, 2006, 1900, 1899, 0x0a,
+    2057, 2051, 2046, 1899, 0x0a,
+    2086, 1908, 2046, 1899, 0x0a,
+    2111, 2051, 2046, 1899, 0x0a,
+    2143, 1908, 2046, 1899, 0x0a,
+    2171, 2051, 2046, 1899, 0x0a,
+    2202, 1908, 2046, 1899, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_StatisticsAdaptor[] = {
+    "StatisticsAdaptor\0org.kde.kopete.Statistics\0"
+    "D-Bus Interface\0"
+    "  <interface name=\"org.kde.kopete.Statistics\">\n    <method name=\"d"
+    "busStatisticsDialog\">\n      <arg direction=\"in\" type=\"s\" name=\""
+    "id\"/>\n    </method>\n    <method name=\"dbusWasOnline\">\n      <arg"
+    " direction=\"out\" type=\"b\"/>\n      <arg direction=\"in\" type=\"s\""
+    " name=\"id\"/>\n      <arg direction=\"in\" type=\"i\" name=\"timeStam"
+    "p\"/>\n    </method>\n    <method name=\"dbusWasOnline\">\n      <arg "
+    "direction=\"out\" type=\"b\"/>\n      <arg direction=\"in\" type=\"s\""
+    " name=\"id\"/>\n      <arg direction=\"in\" type=\"s\" name=\"dt\"/>\n"
+    "    </method>\n    <method name=\"dbusWasAway\">\n      <arg direction"
+    "=\"out\" type=\"b\"/>\n      <arg direction=\"in\" type=\"s\" name=\"i"
+    "d\"/>\n      <arg direction=\"in\" type=\"i\" name=\"timeStamp\"/>\n  "
+    "  </method>\n    <method name=\"dbusWasAway\">\n      <arg direction=\""
+    "out\" type=\"b\"/>\n      <arg direction=\"in\" type=\"s\" name=\"id\""
+    "/>\n      <arg direction=\"in\" type=\"s\" name=\"dt\"/>\n    </method"
+    ">\n    <method name=\"dbusWasOffline\">\n      <arg direction=\"out\" "
+    "type=\"b\"/>\n      <arg direction=\"in\" type=\"s\" name=\"id\"/>\n  "
+    "    <arg direction=\"in\" type=\"i\" name=\"timeStamp\"/>\n    </metho"
+    "d>\n    <method name=\"dbusWasOffline\">\n      <arg direction=\"out\""
+    " type=\"b\"/>\n      <arg direction=\"in\" type=\"s\" name=\"id\"/>\n "
+    "     <arg direction=\"in\" type=\"s\" name=\"dt\"/>\n    </method>\n  "
+    "  <method name=\"dbusStatus\">\n      <arg direction=\"out\" type=\"s\""
+    "/>\n      <arg direction=\"in\" type=\"s\" name=\"id\"/>\n      <arg d"
+    "irection=\"in\" type=\"s\" name=\"dateTime\"/>\n    </method>\n    <me"
+    "thod name=\"dbusStatus\">\n      <arg direction=\"out\" type=\"s\"/>\n"
+    "      <arg direction=\"in\" type=\"s\" name=\"id\"/>\n      <arg direc"
+    "tion=\"in\" type=\"i\" name=\"timeStamp\"/>\n    </method>\n    <metho"
+    "d name=\"dbusMainStatus\">\n      <arg direction=\"out\" type=\"s\"/>\n"
+    "      <arg direction=\"in\" type=\"s\" name=\"id\"/>\n      <arg direc"
+    "tion=\"in\" type=\"i\" name=\"timeStamp\"/>\n    </method>\n  </interf"
+    "ace>\n\0"
+    "D-Bus Introspection\0\0QString\0id,timeStamp\0"
+    "dbusMainStatus(QString,int)\0id\0"
+    "dbusStatisticsDialog(QString)\0"
+    "dbusStatus(QString,int)\0id,dateTime\0"
+    "dbusStatus(QString,QString)\0bool\0id,dt\0"
+    "dbusWasAway(QString,QString)\0"
+    "dbusWasAway(QString,int)\0"
+    "dbusWasOffline(QString,QString)\0"
+    "dbusWasOffline(QString,int)\0"
+    "dbusWasOnline(QString,QString)\0"
+    "dbusWasOnline(QString,int)\0"
+};
+
+void StatisticsAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        StatisticsAdaptor *_t = static_cast<StatisticsAdaptor *>(_o);
+        switch (_id) {
+        case 0: { QString _r = _t->dbusMainStatus((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 1: _t->dbusStatisticsDialog((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: { QString _r = _t->dbusStatus((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 3: { QString _r = _t->dbusStatus((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 4: { bool _r = _t->dbusWasAway((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 5: { bool _r = _t->dbusWasAway((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 6: { bool _r = _t->dbusWasOffline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 7: { bool _r = _t->dbusWasOffline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 8: { bool _r = _t->dbusWasOnline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 9: { bool _r = _t->dbusWasOnline((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData StatisticsAdaptor::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject StatisticsAdaptor::staticMetaObject = {
+    { &QDBusAbstractAdaptor::staticMetaObject, qt_meta_stringdata_StatisticsAdaptor,
+      qt_meta_data_StatisticsAdaptor, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &StatisticsAdaptor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *StatisticsAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *StatisticsAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_StatisticsAdaptor))
+        return static_cast<void*>(const_cast< StatisticsAdaptor*>(this));
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int StatisticsAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,136 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopeteaccountconfig.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../kopete/config/accounts/kopeteaccountconfig.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopeteaccountconfig.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_KopeteAccountConfig[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      17,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      21,   20,   20,   20, 0x0a,
+      28,   20,   20,   20, 0x0a,
+      35,   20,   20,   20, 0x08,
+      48,   20,   20,   20, 0x08,
+      65,   20,   20,   20, 0x08,
+      81,   20,   20,   20, 0x08,
+     109,   20,   20,   20, 0x08,
+     131,   20,   20,   20, 0x08,
+     149,   20,   20,   20, 0x08,
+     166,   20,   20,   20, 0x08,
+     191,   20,   20,   20, 0x08,
+     210,   20,   20,   20, 0x08,
+     245,   20,   20,   20, 0x08,
+     288,   20,   20,   20, 0x08,
+     332,  307,   20,   20, 0x08,
+     416,   20,   20,   20, 0x08,
+     462,  450,   20,   20, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KopeteAccountConfig[] = {
+    "KopeteAccountConfig\0\0save()\0load()\0"
+    "slotModify()\0slotAddAccount()\0"
+    "removeAccount()\0slotAccountSwitchIdentity()\0"
+    "slotAccountSetColor()\0slotAddIdentity()\0"
+    "removeIdentity()\0slotSetDefaultIdentity()\0"
+    "slotCopyIdentity()\0"
+    "slotAccountAdded(Kopete::Account*)\0"
+    "slotAccountRemoved(const Kopete::Account*)\0"
+    "slotItemSelected()\0contact,status,oldStatus\0"
+    "slotOnlineStatusChanged(Kopete::Contact*,Kopete::OnlineStatus,Kopete::"
+    "OnlineStatus)\0"
+    "slotItemChanged(QTreeWidgetItem*)\0"
+    "item,column\0slotItemClicked(QTreeWidgetItem*,int)\0"
+};
+
+void KopeteAccountConfig::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KopeteAccountConfig *_t = static_cast<KopeteAccountConfig *>(_o);
+        switch (_id) {
+        case 0: _t->save(); break;
+        case 1: _t->load(); break;
+        case 2: _t->slotModify(); break;
+        case 3: _t->slotAddAccount(); break;
+        case 4: _t->removeAccount(); break;
+        case 5: _t->slotAccountSwitchIdentity(); break;
+        case 6: _t->slotAccountSetColor(); break;
+        case 7: _t->slotAddIdentity(); break;
+        case 8: _t->removeIdentity(); break;
+        case 9: _t->slotSetDefaultIdentity(); break;
+        case 10: _t->slotCopyIdentity(); break;
+        case 11: _t->slotAccountAdded((*reinterpret_cast< Kopete::Account*(*)>(_a[1]))); break;
+        case 12: _t->slotAccountRemoved((*reinterpret_cast< const Kopete::Account*(*)>(_a[1]))); break;
+        case 13: _t->slotItemSelected(); break;
+        case 14: _t->slotOnlineStatusChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[3]))); break;
+        case 15: _t->slotItemChanged((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1]))); break;
+        case 16: _t->slotItemClicked((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData KopeteAccountConfig::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KopeteAccountConfig::staticMetaObject = {
+    { &KCModule::staticMetaObject, qt_meta_stringdata_KopeteAccountConfig,
+      qt_meta_data_KopeteAccountConfig, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KopeteAccountConfig::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KopeteAccountConfig::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KopeteAccountConfig::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KopeteAccountConfig))
+        return static_cast<void*>(const_cast< KopeteAccountConfig*>(this));
+    return KCModule::qt_metacast(_clname);
+}
+
+int KopeteAccountConfig::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KCModule::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 17)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 17;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
