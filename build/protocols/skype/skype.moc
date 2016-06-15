@@ -1,0 +1,457 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'skype.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/skype/libskype/skype.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'skype.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Skype[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      67,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      27,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+       7,    6,    6,    6, 0x05,
+      20,    6,    6,    6, 0x05,
+      34,    6,    6,    6, 0x05,
+      45,    6,    6,    6, 0x05,
+      64,    6,    6,    6, 0x05,
+      74,    6,    6,    6, 0x05,
+      88,    6,    6,    6, 0x05,
+     104,    6,    6,    6, 0x05,
+     136,  123,    6,    6, 0x05,
+     157,    6,    6,    6, 0x05,
+     192,  177,    6,    6, 0x05,
+     251,  221,    6,    6, 0x05,
+     332,  297,    6,    6, 0x05,
+     394,  391,    6,    6, 0x05,
+     430,  416,    6,    6, 0x05,
+     473,  458,    6,    6, 0x05,
+     514,  500,    6,    6, 0x05,
+     556,  539,    6,    6, 0x05,
+     587,  582,    6,    6, 0x05,
+     621,  610,    6,    6, 0x05,
+     659,  647,    6,    6, 0x05,
+     703,  685,    6,    6, 0x05,
+     750,  737,    6,    6, 0x05,
+     806,  791,    6,    6, 0x05,
+     848,  833,    6,    6, 0x05,
+     885,  878,    6,    6, 0x05,
+     914,  878,    6,    6, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     962,  942,    6,    6, 0x08,
+    1001,  994,    6,    6, 0x08,
+    1031, 1013,    6,    6, 0x08,
+    1063, 1055,    6,    6, 0x08,
+    1078, 1055,    6,    6, 0x08,
+    1100,    6,    6,    6, 0x08,
+    1119, 1114,    6,    6, 0x08,
+    1144, 1135,    6,    6, 0x08,
+    1160,    6,    6,    6, 0x28,
+    1172,    6,    6,    6, 0x0a,
+    1184,    6,    6,    6, 0x0a,
+    1220,    6,    6,    6, 0x0a,
+    1233,    6,    6,    6, 0x0a,
+    1243,    6,    6,    6, 0x0a,
+    1261,    6,    6,    6, 0x0a,
+    1270,    6,    6,    6, 0x0a,
+    1283,    6,    6,    6, 0x0a,
+    1317, 1298,    6,    6, 0x0a,
+    1348, 1340,    6,    6, 0x0a,
+    1372, 1340,    6,    6, 0x0a,
+    1415, 1405, 1397,    6, 0x0a,
+    1458, 1437,    6,    6, 0x0a,
+    1493, 1483, 1397,    6, 0x0a,
+    1528, 1521,    6,    6, 0x0a,
+    1546,  878,    6,    6, 0x0a,
+    1566,  878,    6,    6, 0x0a,
+    1582,  878,    6,    6, 0x0a,
+    1606,    6,    6,    6, 0x0a,
+    1628, 1620,    6,    6, 0x0a,
+    1646,    6,    6,    6, 0x0a,
+    1657, 1653,    6,    6, 0x0a,
+    1677, 1669,    6,    6, 0x0a,
+    1707, 1699,    6,    6, 0x0a,
+    1738, 1732,    6,    6, 0x0a,
+    1763, 1758,    6,    6, 0x0a,
+    1795, 1781,    6,    6, 0x0a,
+    1830, 1823,    6,    6, 0x0a,
+    1859, 1849,    6,    6, 0x0a,
+    1882, 1849,    6,    6, 0x0a,
+    1919, 1902,    6,    6, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Skype[] = {
+    "Skype\0\0wentOnline()\0wentOffline()\0"
+    "wentAway()\0wentNotAvailable()\0wentDND()\0"
+    "wentSkypeMe()\0wentInvisible()\0"
+    "statusConnecting()\0name,groupID\0"
+    "newUser(QString,int)\0updateAllContacts()\0"
+    "contact,change\0contactInfo(QString,QString)\0"
+    "user,body,messageId,timeStamp\0"
+    "receivedIM(QString,QString,QString,QDateTime)\0"
+    "chat,body,messageId,user,timeStamp\0"
+    "receivedMultiIM(QString,QString,QString,QString,QDateTime)\0"
+    "id\0gotMessageId(QString)\0callId,status\0"
+    "callStatus(QString,QString)\0callId,message\0"
+    "callError(QString,QString)\0callId,userId\0"
+    "newCall(QString,QString)\0balance,currency\0"
+    "skypeOutInfo(int,QString)\0name\0"
+    "setMyselfName(QString)\0chat,topic\0"
+    "setTopic(QString,QString)\0chat,userId\0"
+    "joinUser(QString,QString)\0chat,userd,reason\0"
+    "leftUser(QString,QString,QString)\0"
+    "id,body,chat\0outgoingMessage(QString,QString,QString)\0"
+    "callId,groupId\0groupCall(QString,QString)\0"
+    "contactId,info\0receivedAuth(QString,QString)\0"
+    "callId\0startReceivingVideo(QString)\0"
+    "stopReceivingVideo(QString)\0"
+    "message,deleteQueue\0queueSkypeMessage(QString,bool)\0"
+    "reason\0closed(int)\0error,protocolVer\0"
+    "connectionDone(int,int)\0message\0"
+    "error(QString)\0skypeMessage(QString)\0"
+    "resetStatus()\0what\0search(QString)\0"
+    "loadOnly\0fixGroups(bool)\0fixGroups()\0"
+    "setOnline()\0setUserProfileRichMoodText(QString)\0"
+    "setOffline()\0setAway()\0setNotAvailable()\0"
+    "setDND()\0setSkypeMe()\0setInvisible()\0"
+    "launchType,appName\0setValues(int,QString)\0"
+    "contact\0getContactInfo(QString)\0"
+    "getContactBuddy(QString)\0QString\0"
+    "user,body\0send(QString,QString)\0"
+    "messageId,newMessage\0editMessage(int,QString)\0"
+    "chat,body\0sendToChat(QString,QString)\0"
+    "userId\0makeCall(QString)\0acceptCall(QString)\0"
+    "hangUp(QString)\0toggleHoldCall(QString)\0"
+    "getSkypeOut()\0enabled\0enablePings(bool)\0"
+    "ping()\0bus\0setBus(int)\0seconds\0"
+    "setLaunchTimeout(int)\0command\0"
+    "setSkypeCommand(QString)\0value\0"
+    "setWaitConnect(int)\0chat\0getTopic(QString)\0"
+    "chatId,userId\0inviteUser(QString,QString)\0"
+    "chatId\0leaveChat(QString)\0contactId\0"
+    "removeContact(QString)\0addContact(QString)\0"
+    "contactId,author\0setAuthor(QString,AuthorType)\0"
+};
+
+void Skype::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Skype *_t = static_cast<Skype *>(_o);
+        switch (_id) {
+        case 0: _t->wentOnline(); break;
+        case 1: _t->wentOffline(); break;
+        case 2: _t->wentAway(); break;
+        case 3: _t->wentNotAvailable(); break;
+        case 4: _t->wentDND(); break;
+        case 5: _t->wentSkypeMe(); break;
+        case 6: _t->wentInvisible(); break;
+        case 7: _t->statusConnecting(); break;
+        case 8: _t->newUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 9: _t->updateAllContacts(); break;
+        case 10: _t->contactInfo((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 11: _t->receivedIM((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< const QDateTime(*)>(_a[4]))); break;
+        case 12: _t->receivedMultiIM((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< const QDateTime(*)>(_a[5]))); break;
+        case 13: _t->gotMessageId((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 14: _t->callStatus((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 15: _t->callError((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 16: _t->newCall((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 17: _t->skypeOutInfo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 18: _t->setMyselfName((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 19: _t->setTopic((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 20: _t->joinUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 21: _t->leftUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 22: _t->outgoingMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 23: _t->groupCall((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 24: _t->receivedAuth((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 25: _t->startReceivingVideo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 26: _t->stopReceivingVideo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 27: _t->queueSkypeMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 28: _t->closed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 29: _t->connectionDone((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 30: _t->error((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 31: _t->skypeMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 32: _t->resetStatus(); break;
+        case 33: _t->search((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 34: _t->fixGroups((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 35: _t->fixGroups(); break;
+        case 36: _t->setOnline(); break;
+        case 37: _t->setUserProfileRichMoodText((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 38: _t->setOffline(); break;
+        case 39: _t->setAway(); break;
+        case 40: _t->setNotAvailable(); break;
+        case 41: _t->setDND(); break;
+        case 42: _t->setSkypeMe(); break;
+        case 43: _t->setInvisible(); break;
+        case 44: _t->setValues((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 45: _t->getContactInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 46: _t->getContactBuddy((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 47: { QString _r = _t->send((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 48: _t->editMessage((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 49: { QString _r = _t->sendToChat((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 50: _t->makeCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 51: _t->acceptCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 52: _t->hangUp((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 53: _t->toggleHoldCall((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 54: _t->getSkypeOut(); break;
+        case 55: _t->enablePings((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 56: _t->ping(); break;
+        case 57: _t->setBus((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 58: _t->setLaunchTimeout((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 59: _t->setSkypeCommand((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 60: _t->setWaitConnect((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 61: _t->getTopic((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 62: _t->inviteUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 63: _t->leaveChat((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 64: _t->removeContact((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 65: _t->addContact((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 66: _t->setAuthor((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< AuthorType(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Skype::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Skype::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Skype,
+      qt_meta_data_Skype, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Skype::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Skype::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Skype::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Skype))
+        return static_cast<void*>(const_cast< Skype*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Skype::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 67)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 67;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Skype::wentOnline()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Skype::wentOffline()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void Skype::wentAway()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void Skype::wentNotAvailable()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void Skype::wentDND()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+
+// SIGNAL 5
+void Skype::wentSkypeMe()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void Skype::wentInvisible()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, 0);
+}
+
+// SIGNAL 7
+void Skype::statusConnecting()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, 0);
+}
+
+// SIGNAL 8
+void Skype::newUser(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void Skype::updateAllContacts()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, 0);
+}
+
+// SIGNAL 10
+void Skype::contactInfo(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+
+// SIGNAL 11
+void Skype::receivedIM(const QString & _t1, const QString & _t2, const QString & _t3, const QDateTime & _t4)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    QMetaObject::activate(this, &staticMetaObject, 11, _a);
+}
+
+// SIGNAL 12
+void Skype::receivedMultiIM(const QString & _t1, const QString & _t2, const QString & _t3, const QString & _t4, const QDateTime & _t5)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    QMetaObject::activate(this, &staticMetaObject, 12, _a);
+}
+
+// SIGNAL 13
+void Skype::gotMessageId(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 13, _a);
+}
+
+// SIGNAL 14
+void Skype::callStatus(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 14, _a);
+}
+
+// SIGNAL 15
+void Skype::callError(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 15, _a);
+}
+
+// SIGNAL 16
+void Skype::newCall(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 16, _a);
+}
+
+// SIGNAL 17
+void Skype::skypeOutInfo(int _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 17, _a);
+}
+
+// SIGNAL 18
+void Skype::setMyselfName(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 18, _a);
+}
+
+// SIGNAL 19
+void Skype::setTopic(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 19, _a);
+}
+
+// SIGNAL 20
+void Skype::joinUser(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 20, _a);
+}
+
+// SIGNAL 21
+void Skype::leftUser(const QString & _t1, const QString & _t2, const QString & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 21, _a);
+}
+
+// SIGNAL 22
+void Skype::outgoingMessage(const QString & _t1, const QString & _t2, const QString & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 22, _a);
+}
+
+// SIGNAL 23
+void Skype::groupCall(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 23, _a);
+}
+
+// SIGNAL 24
+void Skype::receivedAuth(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 24, _a);
+}
+
+// SIGNAL 25
+void Skype::startReceivingVideo(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 25, _a);
+}
+
+// SIGNAL 26
+void Skype::stopReceivingVideo(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 26, _a);
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,334 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetemetacontact.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetemetacontact.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetemetacontact.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__MetaContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      34,   14, // methods
+       9,  184, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      12,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      29,   21,   20,   20, 0x05,
+      83,   71,   20,   20, 0x05,
+     141,  126,   20,   20, 0x05,
+     216,  126,   20,   20, 0x05,
+     292,  276,   20,   20, 0x05,
+     328,   20,   20,   20, 0x05,
+     359,  343,   20,   20, 0x05,
+     438,  424,   20,   20, 0x05,
+     503,  492,   20,   20, 0x05,
+     555,  553,   20,   20, 0x05,
+     586,  553,   20,   20, 0x05,
+     619,   20,   20,   20, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     674,  643,   20,   20, 0x0a,
+     725,  703,   20,   20, 0x2a,
+     758,  748,   20,   20, 0x2a,
+     773,   20,   20,   20, 0x0a,
+     793,  785,   20,   20, 0x0a,
+     841,  836,   20,   20, 0x0a,
+     876,  873,   20,   20, 0x0a,
+     911,  903,   20,   20, 0x0a,
+     947,  945,   20,   20, 0x2a,
+     966,   20,   20,   20, 0x2a,
+     990,   20,  981,   20, 0x0a,
+    1000,   20,  981,   20, 0x0a,
+    1014,   20,  981,   20, 0x0a,
+    1026,   20,   20,   20, 0x0a,
+    1056, 1049,   20,   20, 0x0a,
+    1092, 1090,   20,   20, 0x0a,
+    1130,   20,   20,   20, 0x08,
+    1170, 1151,   20,   20, 0x08,
+    1285, 1255,   20,   20, 0x08,
+    1359,  276,   20,   20, 0x08,
+    1406,   20,   20,   20, 0x08,
+    1445,   20,   20,   20, 0x08,
+
+ // properties: name, type, flags
+    1484, 1476, 0x0a095103,
+    1496, 1476, 0x0a095001,
+    1509, 1476, 0x0a095001,
+    1525, 1520, 0x01095001,
+    1534, 1520, 0x01095001,
+    1546, 1520, 0x01095001,
+    1558, 1520, 0x01095001,
+    1579, 1573, 0x0009510b,
+    1593, 1520, 0x01095103,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__MetaContact[] = {
+    "Kopete::MetaContact\0\0contact\0"
+    "contactIdleStateChanged(Kopete::Contact*)\0"
+    "metaContact\0statusMessageChanged(Kopete::MetaContact*)\0"
+    "contact,status\0"
+    "onlineStatusChanged(Kopete::MetaContact*,Kopete::OnlineStatus::StatusT"
+    "ype)\0"
+    "contactStatusChanged(Kopete::Contact*,Kopete::OnlineStatus)\0"
+    "oldName,newName\0displayNameChanged(QString,QString)\0"
+    "photoChanged()\0contact,from,to\0"
+    "movedToGroup(Kopete::MetaContact*,Kopete::Group*,Kopete::Group*)\0"
+    "contact,group\0"
+    "removedFromGroup(Kopete::MetaContact*,Kopete::Group*)\0"
+    "contact,to\0addedToGroup(Kopete::MetaContact*,Kopete::Group*)\0"
+    "c\0contactAdded(Kopete::Contact*)\0"
+    "contactRemoved(Kopete::Contact*)\0"
+    "persistentDataChanged()\0"
+    "sourceURL,altFileName,fileSize\0"
+    "sendFile(KUrl,QString,ulong)\0"
+    "sourceURL,altFileName\0sendFile(KUrl,QString)\0"
+    "sourceURL\0sendFile(KUrl)\0serialize()\0"
+    "from,to\0moveToGroup(Kopete::Group*,Kopete::Group*)\0"
+    "from\0removeFromGroup(Kopete::Group*)\0"
+    "to\0addToGroup(Kopete::Group*)\0b,group\0"
+    "setTemporary(bool,Kopete::Group*)\0b\0"
+    "setTemporary(bool)\0setTemporary()\0"
+    "Contact*\0execute()\0sendMessage()\0"
+    "startChat()\0slotAllPluginsLoaded()\0"
+    "plugin\0slotPluginLoaded(Kopete::Plugin*)\0"
+    "p\0slotProtocolLoaded(Kopete::Protocol*)\0"
+    "updateOnlineStatus()\0c,status,oldStatus\0"
+    "slotContactStatusChanged(Kopete::Contact*,Kopete::OnlineStatus,Kopete:"
+    ":OnlineStatus)\0"
+    "contact,key,oldValue,newValue\0"
+    "slotPropertyChanged(Kopete::PropertyContainer*,QString,QVariant,QVaria"
+    "nt)\0"
+    "slotContactDisplayNameChanged(QString,QString)\0"
+    "slotContactDestroyed(Kopete::Contact*)\0"
+    "slotUpdateAddressBookPicture()\0QString\0"
+    "displayName\0statusString\0statusIcon\0"
+    "bool\0isOnline\0isReachable\0isTemporary\0"
+    "canAcceptFiles\0QUuid\0metaContactId\0"
+    "photoSyncedWithKABC\0"
+};
+
+void Kopete::MetaContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        MetaContact *_t = static_cast<MetaContact *>(_o);
+        switch (_id) {
+        case 0: _t->contactIdleStateChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 1: _t->statusMessageChanged((*reinterpret_cast< Kopete::MetaContact*(*)>(_a[1]))); break;
+        case 2: _t->onlineStatusChanged((*reinterpret_cast< Kopete::MetaContact*(*)>(_a[1])),(*reinterpret_cast< Kopete::OnlineStatus::StatusType(*)>(_a[2]))); break;
+        case 3: _t->contactStatusChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2]))); break;
+        case 4: _t->displayNameChanged((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 5: _t->photoChanged(); break;
+        case 6: _t->movedToGroup((*reinterpret_cast< Kopete::MetaContact*(*)>(_a[1])),(*reinterpret_cast< Kopete::Group*(*)>(_a[2])),(*reinterpret_cast< Kopete::Group*(*)>(_a[3]))); break;
+        case 7: _t->removedFromGroup((*reinterpret_cast< Kopete::MetaContact*(*)>(_a[1])),(*reinterpret_cast< Kopete::Group*(*)>(_a[2]))); break;
+        case 8: _t->addedToGroup((*reinterpret_cast< Kopete::MetaContact*(*)>(_a[1])),(*reinterpret_cast< Kopete::Group*(*)>(_a[2]))); break;
+        case 9: _t->contactAdded((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 10: _t->contactRemoved((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 11: _t->persistentDataChanged(); break;
+        case 12: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< ulong(*)>(_a[3]))); break;
+        case 13: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 14: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 15: _t->serialize(); break;
+        case 16: _t->moveToGroup((*reinterpret_cast< Kopete::Group*(*)>(_a[1])),(*reinterpret_cast< Kopete::Group*(*)>(_a[2]))); break;
+        case 17: _t->removeFromGroup((*reinterpret_cast< Kopete::Group*(*)>(_a[1]))); break;
+        case 18: _t->addToGroup((*reinterpret_cast< Kopete::Group*(*)>(_a[1]))); break;
+        case 19: _t->setTemporary((*reinterpret_cast< bool(*)>(_a[1])),(*reinterpret_cast< Kopete::Group*(*)>(_a[2]))); break;
+        case 20: _t->setTemporary((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 21: _t->setTemporary(); break;
+        case 22: { Contact* _r = _t->execute();
+            if (_a[0]) *reinterpret_cast< Contact**>(_a[0]) = _r; }  break;
+        case 23: { Contact* _r = _t->sendMessage();
+            if (_a[0]) *reinterpret_cast< Contact**>(_a[0]) = _r; }  break;
+        case 24: { Contact* _r = _t->startChat();
+            if (_a[0]) *reinterpret_cast< Contact**>(_a[0]) = _r; }  break;
+        case 25: _t->slotAllPluginsLoaded(); break;
+        case 26: _t->slotPluginLoaded((*reinterpret_cast< Kopete::Plugin*(*)>(_a[1]))); break;
+        case 27: _t->slotProtocolLoaded((*reinterpret_cast< Kopete::Protocol*(*)>(_a[1]))); break;
+        case 28: _t->updateOnlineStatus(); break;
+        case 29: _t->slotContactStatusChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[3]))); break;
+        case 30: _t->slotPropertyChanged((*reinterpret_cast< Kopete::PropertyContainer*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QVariant(*)>(_a[3])),(*reinterpret_cast< const QVariant(*)>(_a[4]))); break;
+        case 31: _t->slotContactDisplayNameChanged((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 32: _t->slotContactDestroyed((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 33: _t->slotUpdateAddressBookPicture(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::MetaContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::MetaContact::staticMetaObject = {
+    { &ContactListElement::staticMetaObject, qt_meta_stringdata_Kopete__MetaContact,
+      qt_meta_data_Kopete__MetaContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::MetaContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::MetaContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::MetaContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__MetaContact))
+        return static_cast<void*>(const_cast< MetaContact*>(this));
+    return ContactListElement::qt_metacast(_clname);
+}
+
+int Kopete::MetaContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = ContactListElement::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 34)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 34;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = displayName(); break;
+        case 1: *reinterpret_cast< QString*>(_v) = statusString(); break;
+        case 2: *reinterpret_cast< QString*>(_v) = statusIcon(); break;
+        case 3: *reinterpret_cast< bool*>(_v) = isOnline(); break;
+        case 4: *reinterpret_cast< bool*>(_v) = isReachable(); break;
+        case 5: *reinterpret_cast< bool*>(_v) = isTemporary(); break;
+        case 6: *reinterpret_cast< bool*>(_v) = canAcceptFiles(); break;
+        case 7: *reinterpret_cast< QUuid*>(_v) = metaContactId(); break;
+        case 8: *reinterpret_cast< bool*>(_v) = isPhotoSyncedWithKABC(); break;
+        }
+        _id -= 9;
+    } else if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: setDisplayName(*reinterpret_cast< QString*>(_v)); break;
+        case 7: setMetaContactId(*reinterpret_cast< QUuid*>(_v)); break;
+        case 8: setPhotoSyncedWithKABC(*reinterpret_cast< bool*>(_v)); break;
+        }
+        _id -= 9;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 9;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 9;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 9;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 9;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 9;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 9;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::MetaContact::contactIdleStateChanged(Kopete::Contact * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Kopete::MetaContact::statusMessageChanged(Kopete::MetaContact * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Kopete::MetaContact::onlineStatusChanged(Kopete::MetaContact * _t1, Kopete::OnlineStatus::StatusType _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Kopete::MetaContact::contactStatusChanged(Kopete::Contact * _t1, const Kopete::OnlineStatus & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void Kopete::MetaContact::displayNameChanged(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void Kopete::MetaContact::photoChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void Kopete::MetaContact::movedToGroup(Kopete::MetaContact * _t1, Kopete::Group * _t2, Kopete::Group * _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void Kopete::MetaContact::removedFromGroup(Kopete::MetaContact * _t1, Kopete::Group * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+
+// SIGNAL 8
+void Kopete::MetaContact::addedToGroup(Kopete::MetaContact * _t1, Kopete::Group * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void Kopete::MetaContact::contactAdded(Kopete::Contact * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 9, _a);
+}
+
+// SIGNAL 10
+void Kopete::MetaContact::contactRemoved(Kopete::Contact * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+
+// SIGNAL 11
+void Kopete::MetaContact::persistentDataChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 11, 0);
+}
+QT_END_MOC_NAMESPACE

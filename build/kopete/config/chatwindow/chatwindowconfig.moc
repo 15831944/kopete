@@ -1,0 +1,118 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'chatwindowconfig.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../kopete/config/chatwindow/chatwindowconfig.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'chatwindowconfig.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ChatWindowConfig[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x08,
+      60,   45,   41,   17, 0x08,
+      83,   17,   17,   17, 0x08,
+     115,  105,   17,   17, 0x08,
+     158,  146,   17,   17, 0x08,
+     196,   17,   17,   17, 0x08,
+     210,   17,   17,   17, 0x08,
+     230,   17,   17,   17, 0x08,
+     251,   17,   17,   17, 0x08,
+     275,   17,   17,   17, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ChatWindowConfig[] = {
+    "ChatWindowConfig\0\0slotInstallChatStyle()\0"
+    "int\0styleToInstall\0installChatStyle(KUrl)\0"
+    "slotDeleteChatStyle()\0styleName\0"
+    "slotChatStyleSelected(QString)\0"
+    "variantName\0slotChatStyleVariantSelected(QString)\0"
+    "emitChanged()\0slotGetChatStyles()\0"
+    "slotLoadChatStyles()\0slotUpdateChatPreview()\0"
+    "slotManageEmoticonThemes()\0"
+};
+
+void ChatWindowConfig::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ChatWindowConfig *_t = static_cast<ChatWindowConfig *>(_o);
+        switch (_id) {
+        case 0: _t->slotInstallChatStyle(); break;
+        case 1: { int _r = _t->installChatStyle((*reinterpret_cast< const KUrl(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 2: _t->slotDeleteChatStyle(); break;
+        case 3: _t->slotChatStyleSelected((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 4: _t->slotChatStyleVariantSelected((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->emitChanged(); break;
+        case 6: _t->slotGetChatStyles(); break;
+        case 7: _t->slotLoadChatStyles(); break;
+        case 8: _t->slotUpdateChatPreview(); break;
+        case 9: _t->slotManageEmoticonThemes(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ChatWindowConfig::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ChatWindowConfig::staticMetaObject = {
+    { &KCModule::staticMetaObject, qt_meta_stringdata_ChatWindowConfig,
+      qt_meta_data_ChatWindowConfig, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ChatWindowConfig::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ChatWindowConfig::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ChatWindowConfig::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ChatWindowConfig))
+        return static_cast<void*>(const_cast< ChatWindowConfig*>(this));
+    return KCModule::qt_metacast(_clname);
+}
+
+int ChatWindowConfig::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KCModule::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

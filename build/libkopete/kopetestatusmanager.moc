@@ -1,0 +1,127 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetestatusmanager.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetestatusmanager.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetestatusmanager.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__StatusManager[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      23,   22,   22,   22, 0x05,
+      33,   22,   22,   22, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      55,   22,   22,   22, 0x0a,
+      67,   22,   22,   22, 0x0a,
+      85,   22,   22,   22, 0x0a,
+     107,   99,   22,   22, 0x08,
+     151,   22,   22,   22, 0x08,
+     168,   22,   22,   22, 0x08,
+     183,   22,   22,   22, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__StatusManager[] = {
+    "Kopete::StatusManager\0\0changed()\0"
+    "globalStatusChanged()\0setActive()\0"
+    "askAndSetActive()\0setAutoAway()\0account\0"
+    "accountUnregistered(const Kopete::Account*)\0"
+    "checkIdleTimer()\0loadSettings()\0"
+    "loadBehaviorSettings()\0"
+};
+
+void Kopete::StatusManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        StatusManager *_t = static_cast<StatusManager *>(_o);
+        switch (_id) {
+        case 0: _t->changed(); break;
+        case 1: _t->globalStatusChanged(); break;
+        case 2: _t->setActive(); break;
+        case 3: _t->askAndSetActive(); break;
+        case 4: _t->setAutoAway(); break;
+        case 5: _t->accountUnregistered((*reinterpret_cast< const Kopete::Account*(*)>(_a[1]))); break;
+        case 6: _t->checkIdleTimer(); break;
+        case 7: _t->loadSettings(); break;
+        case 8: _t->loadBehaviorSettings(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::StatusManager::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::StatusManager::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Kopete__StatusManager,
+      qt_meta_data_Kopete__StatusManager, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::StatusManager::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::StatusManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::StatusManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__StatusManager))
+        return static_cast<void*>(const_cast< StatusManager*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Kopete::StatusManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::StatusManager::changed()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Kopete::StatusManager::globalStatusChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+QT_END_MOC_NAMESPACE

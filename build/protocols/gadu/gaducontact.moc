@@ -1,0 +1,124 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'gaducontact.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/gadu/gaducontact.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'gaducontact.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_GaduContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      13,   12,   12,   12, 0x0a,
+      28,   12,   12,   12, 0x0a,
+      44,   12,   12,   12, 0x0a,
+      80,   78,   12,   12, 0x0a,
+     131,   12,   12,   12, 0x0a,
+     144,   12,   12,   12, 0x0a,
+     168,   12,   12,   12, 0x0a,
+     214,  186,   12,   12, 0x0a,
+     261,  242,   12,   12, 0x2a,
+     294,  284,   12,   12, 0x2a,
+     309,   12,   12,   12, 0x2a,
+     320,   12,   12,   12, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GaduContact[] = {
+    "GaduContact\0\0slotUserInfo()\0deleteContact()\0"
+    "messageReceived(Kopete::Message&)\0,\0"
+    "messageSend(Kopete::Message&,Kopete::ChatSession*)\0"
+    "messageAck()\0slotShowPublicProfile()\0"
+    "slotEditContact()\0sourceURL,fileName,fileSize\0"
+    "sendFile(KUrl,QString,uint)\0"
+    "sourceURL,fileName\0sendFile(KUrl,QString)\0"
+    "sourceURL\0sendFile(KUrl)\0sendFile()\0"
+    "slotChatSessionDestroyed()\0"
+};
+
+void GaduContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        GaduContact *_t = static_cast<GaduContact *>(_o);
+        switch (_id) {
+        case 0: _t->slotUserInfo(); break;
+        case 1: _t->deleteContact(); break;
+        case 2: _t->messageReceived((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 3: _t->messageSend((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 4: _t->messageAck(); break;
+        case 5: _t->slotShowPublicProfile(); break;
+        case 6: _t->slotEditContact(); break;
+        case 7: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< uint(*)>(_a[3]))); break;
+        case 8: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 9: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 10: _t->sendFile(); break;
+        case 11: _t->slotChatSessionDestroyed(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData GaduContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GaduContact::staticMetaObject = {
+    { &Kopete::Contact::staticMetaObject, qt_meta_stringdata_GaduContact,
+      qt_meta_data_GaduContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GaduContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GaduContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GaduContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GaduContact))
+        return static_cast<void*>(const_cast< GaduContact*>(this));
+    typedef Kopete::Contact QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int GaduContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Kopete::Contact QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 12)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 12;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

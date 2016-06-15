@@ -1,0 +1,262 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetetransfermanager.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetetransfermanager.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetetransfermanager.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__TransferManager[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       6,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      25,   24,   24,   24, 0x05,
+      49,   24,   24,   24, 0x05,
+      87,   77,   24,   24, 0x05,
+     123,   24,   24,   24, 0x05,
+     160,  157,   24,   24, 0x05,
+     206,  182,   24,   24, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     234,   24,   24,   24, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__TransferManager[] = {
+    "Kopete::TransferManager\0\0"
+    "done(Kopete::Transfer*)\0"
+    "canceled(Kopete::Transfer*)\0,fileName\0"
+    "accepted(Kopete::Transfer*,QString)\0"
+    "refused(Kopete::FileTransferInfo)\0id\0"
+    "askIncomingDone(uint)\0file,localFile,fileSize\0"
+    "sendFile(KUrl,QString,uint)\0"
+    "slotComplete(KJob*)\0"
+};
+
+void Kopete::TransferManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TransferManager *_t = static_cast<TransferManager *>(_o);
+        switch (_id) {
+        case 0: _t->done((*reinterpret_cast< Kopete::Transfer*(*)>(_a[1]))); break;
+        case 1: _t->canceled((*reinterpret_cast< Kopete::Transfer*(*)>(_a[1]))); break;
+        case 2: _t->accepted((*reinterpret_cast< Kopete::Transfer*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 3: _t->refused((*reinterpret_cast< const Kopete::FileTransferInfo(*)>(_a[1]))); break;
+        case 4: _t->askIncomingDone((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 5: _t->sendFile((*reinterpret_cast< const KUrl(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< uint(*)>(_a[3]))); break;
+        case 6: _t->slotComplete((*reinterpret_cast< KJob*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::TransferManager::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::TransferManager::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Kopete__TransferManager,
+      qt_meta_data_Kopete__TransferManager, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::TransferManager::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::TransferManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::TransferManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__TransferManager))
+        return static_cast<void*>(const_cast< TransferManager*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Kopete::TransferManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 7)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 7;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::TransferManager::done(Kopete::Transfer * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Kopete::TransferManager::canceled(Kopete::Transfer * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Kopete::TransferManager::accepted(Kopete::Transfer * _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Kopete::TransferManager::refused(const Kopete::FileTransferInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void Kopete::TransferManager::askIncomingDone(unsigned int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void Kopete::TransferManager::sendFile(const KUrl & _t1, const QString & _t2, unsigned int _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+static const uint qt_meta_data_Kopete__Transfer[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      64,   37,   17,   17, 0x0a,
+      94,   17,   17,   17, 0x0a,
+     114,   17,   17,   17, 0x0a,
+     145,  129,   17,   17, 0x0a,
+     168,   17,   17,   17, 0x0a,
+     194,  189,  184,   17, 0x0a,
+     215,   17,   17,   17, 0x08,
+     235,   17,   17,   17, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__Transfer[] = {
+    "Kopete::Transfer\0\0transferCanceled()\0"
+    "sourceFile,destinationFile\0"
+    "slotNextFile(QString,QString)\0"
+    "slotProcessed(uint)\0slotComplete()\0"
+    "error,errorText\0slotError(int,QString)\0"
+    "slotCancelled()\0bool\0text\0"
+    "showMessage(QString)\0slotResultEmitted()\0"
+    "slotContactDestroyed()\0"
+};
+
+void Kopete::Transfer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Transfer *_t = static_cast<Transfer *>(_o);
+        switch (_id) {
+        case 0: _t->transferCanceled(); break;
+        case 1: _t->slotNextFile((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 2: _t->slotProcessed((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 3: _t->slotComplete(); break;
+        case 4: _t->slotError((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 5: _t->slotCancelled(); break;
+        case 6: { bool _r = _t->showMessage((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 7: _t->slotResultEmitted(); break;
+        case 8: _t->slotContactDestroyed(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::Transfer::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::Transfer::staticMetaObject = {
+    { &KIO::Job::staticMetaObject, qt_meta_stringdata_Kopete__Transfer,
+      qt_meta_data_Kopete__Transfer, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::Transfer::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::Transfer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::Transfer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__Transfer))
+        return static_cast<void*>(const_cast< Transfer*>(this));
+    typedef KIO::Job QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int Kopete::Transfer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef KIO::Job QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::Transfer::transferCanceled()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+QT_END_MOC_NAMESPACE

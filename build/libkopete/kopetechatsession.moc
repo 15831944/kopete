@@ -1,0 +1,380 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'kopetechatsession.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../libkopete/kopetechatsession.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'kopetechatsession.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Kopete__ChatSession[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      53,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      23,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      25,   21,   20,   20, 0x05,
+      63,   55,   20,   20, 0x05,
+     122,  118,   20,   20, 0x25,
+     156,   55,   20,   20, 0x05,
+     211,  118,   20,   20, 0x25,
+     245,   55,   20,   20, 0x05,
+     296,  118,   20,   20, 0x25,
+     326,   20,   20,   20, 0x05,
+     360,  343,   20,   20, 0x05,
+     445,  402,   20,   20, 0x05,
+     534,  512,   20,   20, 0x25,
+     611,  596,   20,   20, 0x25,
+     661,  658,   20,   20, 0x05,
+     741,   20,   20,   20, 0x05,
+     782,  780,   20,   20, 0x05,
+     824,   20,   20,   20, 0x05,
+     854,  845,   20,   20, 0x05,
+     890,  873,   20,   20, 0x05,
+     949,  932,   20,   20, 0x05,
+     981,  976,   20,   20, 0x05,
+    1024, 1008,   20,   20, 0x05,
+    1080,   20,   20,   20, 0x05,
+    1102, 1095,   20,   20, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+    1130,  873,   20,   20, 0x0a,
+    1185, 1177,   20,   20, 0x2a,
+    1246, 1227,   20,   20, 0x0a,
+    1288, 1278,   20,   20, 0x2a,
+    1315,  932,   20,   20, 0x0a,
+    1350, 1008,   20,   20, 0x0a,
+    1407,  118,   20,   20, 0x0a,
+    1450, 1439,   20,   20, 0x0a,
+    1492, 1490,   20,   20, 0x2a,
+    1552, 1527,   20,   20, 0x0a,
+    1629, 1613,   20,   20, 0x2a,
+    1685,  402,   20,   20, 0x0a,
+    1751,  512,   20,   20, 0x2a,
+    1812,  596,   20,   20, 0x2a,
+    1858, 1177,   20,   20, 0x2a,
+    1909, 1896,   20,   20, 0x0a,
+    1931,   20,   20,   20, 0x0a,
+    1937,   20,   20,   20, 0x0a,
+    1953, 1945,   20,   20, 0x0a,
+    1985, 1983,   20,   20, 0x0a,
+    1998,   20,   20,   20, 0x0a,
+    2017,   20,   20,   20, 0x0a,
+    2041,   20,   20,   20, 0x0a,
+    2053,   20,   20,   20, 0x08,
+    2067,   20,   20,   20, 0x08,
+    2091,   20,   20,   20, 0x08,
+    2130, 2111,   20,   20, 0x08,
+    2214, 1177,   20,   20, 0x08,
+    2253, 1177,   20,   20, 0x08,
+    2307, 2291,   20,   20, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Kopete__ChatSession[] = {
+    "Kopete::ChatSession\0\0kmm\0"
+    "closing(Kopete::ChatSession*)\0msg,kmm\0"
+    "messageAppended(Kopete::Message&,Kopete::ChatSession*)\0"
+    "msg\0messageAppended(Kopete::Message&)\0"
+    "messageReceived(Kopete::Message&,Kopete::ChatSession*)\0"
+    "messageReceived(Kopete::Message&)\0"
+    "messageSent(Kopete::Message&,Kopete::ChatSession*)\0"
+    "messageSent(Kopete::Message&)\0"
+    "messageSuccess()\0contact,suppress\0"
+    "contactAdded(const Kopete::Contact*,bool)\0"
+    "contact,reason,format,suppressNotification\0"
+    "contactRemoved(const Kopete::Contact*,QString,Qt::TextFormat,bool)\0"
+    "contact,reason,format\0"
+    "contactRemoved(const Kopete::Contact*,QString,Qt::TextFormat)\0"
+    "contact,reason\0"
+    "contactRemoved(const Kopete::Contact*,QString)\0"
+    ",,\0"
+    "onlineStatusChanged(Kopete::Contact*,Kopete::OnlineStatus,Kopete::Onli"
+    "neStatus)\0"
+    "statusMessageChanged(Kopete::Contact*)\0"
+    ",\0nickNameChanged(Kopete::Contact*,QString)\0"
+    "displayNameChanged()\0isTyping\0"
+    "myselfTyping(bool)\0contact,isTyping\0"
+    "remoteTyping(const Kopete::Contact*,bool)\0"
+    "notificationText\0eventNotification(QString)\0"
+    "view\0viewActivated(KopeteView*)\0"
+    "messageId,state\0"
+    "messageStateChanged(uint,Kopete::Message::MessageState)\0"
+    "photoChanged()\0enable\0toggleGraphicOverride(bool)\0"
+    "receivedTypingMsg(const Kopete::Contact*,bool)\0"
+    "contact\0receivedTypingMsg(const Kopete::Contact*)\0"
+    "contactId,isTyping\0receivedTypingMsg(QString,bool)\0"
+    "contactId\0receivedTypingMsg(QString)\0"
+    "receivedEventNotification(QString)\0"
+    "receivedMessageState(uint,Kopete::Message::MessageState)\0"
+    "appendMessage(Kopete::Message&)\0"
+    "c,suppress\0addContact(const Kopete::Contact*,bool)\0"
+    "c\0addContact(const Kopete::Contact*)\0"
+    "c,initialStatus,suppress\0"
+    "addContact(const Kopete::Contact*,Kopete::OnlineStatus,bool)\0"
+    "c,initialStatus\0"
+    "addContact(const Kopete::Contact*,Kopete::OnlineStatus)\0"
+    "removeContact(const Kopete::Contact*,QString,Qt::TextFormat,bool)\0"
+    "removeContact(const Kopete::Contact*,QString,Qt::TextFormat)\0"
+    "removeContact(const Kopete::Contact*,QString)\0"
+    "removeContact(const Kopete::Contact*)\0"
+    "canBeDeleted\0setCanBeDeleted(bool)\0"
+    "ref()\0deref()\0message\0"
+    "sendMessage(Kopete::Message&)\0t\0"
+    "typing(bool)\0messageSucceeded()\0"
+    "emitNudgeNotification()\0raiseView()\0"
+    "clearChains()\0slotUpdateDisplayName()\0"
+    "slotViewDestroyed()\0c,status,oldStatus\0"
+    "slotOnlineStatusChanged(Kopete::Contact*,Kopete::OnlineStatus,Kopete::"
+    "OnlineStatus)\0"
+    "slotContactDestroyed(Kopete::Contact*)\0"
+    "slotMyselfDestroyed(Kopete::Contact*)\0"
+    "oldName,newName\0slotDisplayNameChanged(QString,QString)\0"
+};
+
+void Kopete::ChatSession::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ChatSession *_t = static_cast<ChatSession *>(_o);
+        switch (_id) {
+        case 0: _t->closing((*reinterpret_cast< Kopete::ChatSession*(*)>(_a[1]))); break;
+        case 1: _t->messageAppended((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 2: _t->messageAppended((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 3: _t->messageReceived((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 4: _t->messageReceived((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 5: _t->messageSent((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< Kopete::ChatSession*(*)>(_a[2]))); break;
+        case 6: _t->messageSent((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 7: _t->messageSuccess(); break;
+        case 8: _t->contactAdded((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 9: _t->contactRemoved((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< Qt::TextFormat(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
+        case 10: _t->contactRemoved((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< Qt::TextFormat(*)>(_a[3]))); break;
+        case 11: _t->contactRemoved((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 12: _t->onlineStatusChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[3]))); break;
+        case 13: _t->statusMessageChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 14: _t->nickNameChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 15: _t->displayNameChanged(); break;
+        case 16: _t->myselfTyping((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 17: _t->remoteTyping((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 18: _t->eventNotification((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 19: _t->viewActivated((*reinterpret_cast< KopeteView*(*)>(_a[1]))); break;
+        case 20: _t->messageStateChanged((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< Kopete::Message::MessageState(*)>(_a[2]))); break;
+        case 21: _t->photoChanged(); break;
+        case 22: _t->toggleGraphicOverride((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 23: _t->receivedTypingMsg((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 24: _t->receivedTypingMsg((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1]))); break;
+        case 25: _t->receivedTypingMsg((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 26: _t->receivedTypingMsg((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 27: _t->receivedEventNotification((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 28: _t->receivedMessageState((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< Kopete::Message::MessageState(*)>(_a[2]))); break;
+        case 29: _t->appendMessage((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 30: _t->addContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 31: _t->addContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1]))); break;
+        case 32: _t->addContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
+        case 33: _t->addContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2]))); break;
+        case 34: _t->removeContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< Qt::TextFormat(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
+        case 35: _t->removeContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< Qt::TextFormat(*)>(_a[3]))); break;
+        case 36: _t->removeContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 37: _t->removeContact((*reinterpret_cast< const Kopete::Contact*(*)>(_a[1]))); break;
+        case 38: _t->setCanBeDeleted((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 39: _t->ref(); break;
+        case 40: _t->deref(); break;
+        case 41: _t->sendMessage((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 42: _t->typing((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 43: _t->messageSucceeded(); break;
+        case 44: _t->emitNudgeNotification(); break;
+        case 45: _t->raiseView(); break;
+        case 46: _t->clearChains(); break;
+        case 47: _t->slotUpdateDisplayName(); break;
+        case 48: _t->slotViewDestroyed(); break;
+        case 49: _t->slotOnlineStatusChanged((*reinterpret_cast< Kopete::Contact*(*)>(_a[1])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[2])),(*reinterpret_cast< const Kopete::OnlineStatus(*)>(_a[3]))); break;
+        case 50: _t->slotContactDestroyed((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 51: _t->slotMyselfDestroyed((*reinterpret_cast< Kopete::Contact*(*)>(_a[1]))); break;
+        case 52: _t->slotDisplayNameChanged((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Kopete::ChatSession::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Kopete::ChatSession::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Kopete__ChatSession,
+      qt_meta_data_Kopete__ChatSession, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Kopete::ChatSession::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Kopete::ChatSession::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Kopete::ChatSession::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Kopete__ChatSession))
+        return static_cast<void*>(const_cast< ChatSession*>(this));
+    if (!strcmp(_clname, "KXMLGUIClient"))
+        return static_cast< KXMLGUIClient*>(const_cast< ChatSession*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Kopete::ChatSession::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 53)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 53;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Kopete::ChatSession::closing(Kopete::ChatSession * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Kopete::ChatSession::messageAppended(Kopete::Message & _t1, Kopete::ChatSession * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 3
+void Kopete::ChatSession::messageReceived(Kopete::Message & _t1, Kopete::ChatSession * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 5
+void Kopete::ChatSession::messageSent(Kopete::Message & _t1, Kopete::ChatSession * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 7
+void Kopete::ChatSession::messageSuccess()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, 0);
+}
+
+// SIGNAL 8
+void Kopete::ChatSession::contactAdded(const Kopete::Contact * _t1, bool _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void Kopete::ChatSession::contactRemoved(const Kopete::Contact * _t1, const QString & _t2, Qt::TextFormat _t3, bool _t4)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    QMetaObject::activate(this, &staticMetaObject, 9, _a);
+}
+
+// SIGNAL 12
+void Kopete::ChatSession::onlineStatusChanged(Kopete::Contact * _t1, const Kopete::OnlineStatus & _t2, const Kopete::OnlineStatus & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 12, _a);
+}
+
+// SIGNAL 13
+void Kopete::ChatSession::statusMessageChanged(Kopete::Contact * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 13, _a);
+}
+
+// SIGNAL 14
+void Kopete::ChatSession::nickNameChanged(Kopete::Contact * _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 14, _a);
+}
+
+// SIGNAL 15
+void Kopete::ChatSession::displayNameChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 15, 0);
+}
+
+// SIGNAL 16
+void Kopete::ChatSession::myselfTyping(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 16, _a);
+}
+
+// SIGNAL 17
+void Kopete::ChatSession::remoteTyping(const Kopete::Contact * _t1, bool _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 17, _a);
+}
+
+// SIGNAL 18
+void Kopete::ChatSession::eventNotification(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 18, _a);
+}
+
+// SIGNAL 19
+void Kopete::ChatSession::viewActivated(KopeteView * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 19, _a);
+}
+
+// SIGNAL 20
+void Kopete::ChatSession::messageStateChanged(uint _t1, Kopete::Message::MessageState _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 20, _a);
+}
+
+// SIGNAL 21
+void Kopete::ChatSession::photoChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 21, 0);
+}
+
+// SIGNAL 22
+void Kopete::ChatSession::toggleGraphicOverride(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 22, _a);
+}
+QT_END_MOC_NAMESPACE

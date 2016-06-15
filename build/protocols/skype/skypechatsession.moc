@@ -1,0 +1,192 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'skypechatsession.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../protocols/skype/skypechatsession.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'skypechatsession.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SkypeChatSession[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       5,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      37,   18,   17,   17, 0x05,
+      85,   80,   17,   17, 0x05,
+     123,  104,   17,   17, 0x05,
+     185,  171,   17,   17, 0x05,
+     226,  219,   17,   17, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     245,   17,   17,   17, 0x08,
+     271,   17,   17,   17, 0x08,
+     286,   17,   17,   17, 0x08,
+     304,   17,   17,   17, 0x08,
+     321,   17,   17,   17, 0x08,
+     349,  338,   17,   17, 0x0a,
+     375,  219,   17,   17, 0x0a,
+     406,  394,   17,   17, 0x0a,
+     451,  432,   17,   17, 0x0a,
+     498,  485,   17,   17, 0x0a,
+     568,  558,   17,   17, 0x2a,
+     631,  620,   17,   17, 0x0a,
+     676,  668,   17,   17, 0x2a,
+     719,  710,  705,   17, 0x0a,
+     747,  744,  705,   17, 0x2a,
+     777,  767,   17,   17, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SkypeChatSession[] = {
+    "SkypeChatSession\0\0chatSession,sender\0"
+    "becameMultiChat(QString,SkypeChatSession*)\0"
+    "chat\0wantTopic(QString)\0oldId,newId,sender\0"
+    "updateChatId(QString,QString,SkypeChatSession*)\0"
+    "chatId,userId\0inviteUserToChat(QString,QString)\0"
+    "chatId\0leaveChat(QString)\0"
+    "message(Kopete::Message&)\0disallowCall()\0"
+    "callChatSession()\0showInviteMenu()\0"
+    "hideInviteMenu()\0chat,topic\0"
+    "setTopic(QString,QString)\0setChatId(QString)\0"
+    "chat,userId\0joinUser(QString,QString)\0"
+    "chat,userId,reason\0leftUser(QString,QString,QString)\0"
+    "recv,body,id\0"
+    "sentMessage(const QList<Kopete::Contact*>*,QString,QString)\0"
+    "recv,body\0sentMessage(const QList<Kopete::Contact*>*,QString)\0"
+    "message,id\0sentMessage(Kopete::Message,QString)\0"
+    "message\0sentMessage(Kopete::Message)\0"
+    "bool\0id,error\0ackMessage(QString,bool)\0"
+    "id\0ackMessage(QString)\0contactId\0"
+    "inviteContact(QString)\0"
+};
+
+void SkypeChatSession::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        SkypeChatSession *_t = static_cast<SkypeChatSession *>(_o);
+        switch (_id) {
+        case 0: _t->becameMultiChat((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< SkypeChatSession*(*)>(_a[2]))); break;
+        case 1: _t->wantTopic((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->updateChatId((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< SkypeChatSession*(*)>(_a[3]))); break;
+        case 3: _t->inviteUserToChat((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 4: _t->leaveChat((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->message((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 6: _t->disallowCall(); break;
+        case 7: _t->callChatSession(); break;
+        case 8: _t->showInviteMenu(); break;
+        case 9: _t->hideInviteMenu(); break;
+        case 10: _t->setTopic((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 11: _t->setChatId((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 12: _t->joinUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 13: _t->leftUser((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 14: _t->sentMessage((*reinterpret_cast< const QList<Kopete::Contact*>*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 15: _t->sentMessage((*reinterpret_cast< const QList<Kopete::Contact*>*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 16: _t->sentMessage((*reinterpret_cast< Kopete::Message(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 17: _t->sentMessage((*reinterpret_cast< Kopete::Message(*)>(_a[1]))); break;
+        case 18: { bool _r = _t->ackMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 19: { bool _r = _t->ackMessage((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 20: _t->inviteContact((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData SkypeChatSession::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject SkypeChatSession::staticMetaObject = {
+    { &Kopete::ChatSession::staticMetaObject, qt_meta_stringdata_SkypeChatSession,
+      qt_meta_data_SkypeChatSession, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SkypeChatSession::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SkypeChatSession::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SkypeChatSession::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SkypeChatSession))
+        return static_cast<void*>(const_cast< SkypeChatSession*>(this));
+    typedef Kopete::ChatSession QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int SkypeChatSession::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Kopete::ChatSession QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 21)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 21;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SkypeChatSession::becameMultiChat(const QString & _t1, SkypeChatSession * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void SkypeChatSession::wantTopic(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void SkypeChatSession::updateChatId(const QString & _t1, const QString & _t2, SkypeChatSession * _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void SkypeChatSession::inviteUserToChat(const QString & _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void SkypeChatSession::leaveChat(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+QT_END_MOC_NAMESPACE

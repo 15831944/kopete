@@ -1,0 +1,205 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'icqaccount.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../protocols/oscar/icq/icqaccount.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'icqaccount.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_ICQMyselfContact[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x0a,
+      45,   17,   17,   17, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ICQMyselfContact[] = {
+    "ICQMyselfContact\0\0receivedShortInfo(QString)\0"
+    "fetchShortInfo()\0"
+};
+
+void ICQMyselfContact::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ICQMyselfContact *_t = static_cast<ICQMyselfContact *>(_o);
+        switch (_id) {
+        case 0: _t->receivedShortInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->fetchShortInfo(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ICQMyselfContact::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ICQMyselfContact::staticMetaObject = {
+    { &OscarMyselfContact::staticMetaObject, qt_meta_stringdata_ICQMyselfContact,
+      qt_meta_data_ICQMyselfContact, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ICQMyselfContact::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ICQMyselfContact::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ICQMyselfContact::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ICQMyselfContact))
+        return static_cast<void*>(const_cast< ICQMyselfContact*>(this));
+    return OscarMyselfContact::qt_metacast(_clname);
+}
+
+int ICQMyselfContact::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = OscarMyselfContact::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_ICQAccount[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      12,   11,   11,   11, 0x09,
+      34,   27,   11,   11, 0x09,
+      81,   65,   11,   11, 0x08,
+     147,  138,   11,   11, 0x28,
+     190,  182,   11,   11, 0x08,
+     224,   11,   11,   11, 0x08,
+     246,   11,   11,   11, 0x08,
+     261,   11,   11,   11, 0x08,
+     283,   11,   11,   11, 0x08,
+     313,  305,   11,   11, 0x08,
+     345,   11,   11,   11, 0x08,
+     362,   11,   11,   11, 0x08,
+     397,  382,   11,   11, 0x08,
+     442,  433,   11,   11, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ICQAccount[] = {
+    "ICQAccount\0\0loginActions()\0reason\0"
+    "disconnected(DisconnectReason)\0"
+    "presence,reason\0"
+    "setPresenceTarget(Oscar::Presence,Kopete::StatusMessage)\0"
+    "presence\0setPresenceTarget(Oscar::Presence)\0"
+    "xStatus\0setPresenceXStatus(Xtraz::Status)\0"
+    "slotToggleInvisible()\0slotUserInfo()\0"
+    "storeUserInfoDialog()\0closeUserInfoDialog()\0"
+    "contact\0userReadsStatusMessage(QString)\0"
+    "setXtrazStatus()\0editXtrazStatuses()\0"
+    "contact,reason\0slotGotAuthRequest(QString,QString)\0"
+    "actionId\0addedInfoEventActionActivated(uint)\0"
+};
+
+void ICQAccount::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ICQAccount *_t = static_cast<ICQAccount *>(_o);
+        switch (_id) {
+        case 0: _t->loginActions(); break;
+        case 1: _t->disconnected((*reinterpret_cast< DisconnectReason(*)>(_a[1]))); break;
+        case 2: _t->setPresenceTarget((*reinterpret_cast< const Oscar::Presence(*)>(_a[1])),(*reinterpret_cast< const Kopete::StatusMessage(*)>(_a[2]))); break;
+        case 3: _t->setPresenceTarget((*reinterpret_cast< const Oscar::Presence(*)>(_a[1]))); break;
+        case 4: _t->setPresenceXStatus((*reinterpret_cast< const Xtraz::Status(*)>(_a[1]))); break;
+        case 5: _t->slotToggleInvisible(); break;
+        case 6: _t->slotUserInfo(); break;
+        case 7: _t->storeUserInfoDialog(); break;
+        case 8: _t->closeUserInfoDialog(); break;
+        case 9: _t->userReadsStatusMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 10: _t->setXtrazStatus(); break;
+        case 11: _t->editXtrazStatuses(); break;
+        case 12: _t->slotGotAuthRequest((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 13: _t->addedInfoEventActionActivated((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ICQAccount::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ICQAccount::staticMetaObject = {
+    { &OscarAccount::staticMetaObject, qt_meta_stringdata_ICQAccount,
+      qt_meta_data_ICQAccount, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ICQAccount::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ICQAccount::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ICQAccount::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ICQAccount))
+        return static_cast<void*>(const_cast< ICQAccount*>(this));
+    return OscarAccount::qt_metacast(_clname);
+}
+
+int ICQAccount::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = OscarAccount::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
